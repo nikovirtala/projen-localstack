@@ -7,9 +7,9 @@ const project = new cdk.JsiiProject({
     author: "Niko Virtala",
     authorAddress: "niko.virtala@hey.com",
     defaultReleaseBranch: "main",
-    deps: ["projen"],
+    deps: ["projen", "@nikovirtala/projen-homebrew-dependencies"],
     devDeps: ["@nikovirtala/projen-vitest"],
-    description: "Homebrew dependencies component for projen projects",
+    description: "LocalStack component for projen projects",
     dependabot: false,
     depsUpgradeOptions: {
         workflowOptions: {

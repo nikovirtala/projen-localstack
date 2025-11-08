@@ -1,6 +1,6 @@
 {
   "name": "@nikovirtala/projen-localstack",
-  "description": "Homebrew dependencies component for projen projects",
+  "description": "LocalStack component for projen projects",
   "repository": {
     "type": "git",
     "url": "https://github.com/nikovirtala/projen-localstack.git"
@@ -57,6 +57,7 @@
     "projen": "^0.98.10"
   },
   "dependencies": {
+    "@nikovirtala/projen-homebrew-dependencies": "^1.0.4",
     "projen": "^0.98.10"
   },
   "pnpm": {},

@@ -1,5 +1,77 @@
-export class Hello {
-    public sayHello() {
-        return "hello, world!";
+import { HomebrewDependencies } from "@nikovirtala/projen-homebrew-dependencies";
+import { Component } from "projen/lib/component";
+import type { NodeProject } from "projen/lib/javascript";
+
+/**
+ * Options for LocalStack component.
+ */
+export interface LocalStackOptions {
+    /**
+     * LocalStack services to enable.
+     * @default - all services enabled
+     */
+    readonly services?: string;
+
+    /**
+     * LocalStack gateway port.
+     * @default 4566
+     */
+    readonly port?: number;
+
+    /**
+     * Enable LocalStack debug mode.
+     * @default false
+     */
+    readonly debug?: boolean;
+
+    /**
+     * LocalStack Docker image tag.
+     * @default "latest"
+     */
+    readonly imageTag?: string;
+}
+
+/**
+ * LocalStack component for projen projects.
+ *
+ * Adds LocalStack support to your project with automatic Docker/Colima setup.
+ */
+export class LocalStack extends Component {
+    constructor(project: NodeProject, options: LocalStackOptions = {}) {
+        super(project);
+
+        const port = options.port ?? 4566;
+        const debug = options.debug ?? false;
+
+        let homebrew = HomebrewDependencies.of(project);
+        if (!homebrew) {
+            homebrew = new HomebrewDependencies(project);
+        }
+
+        homebrew.addPackage("colima");
+        homebrew.addPackage("docker");
+        homebrew.addPackage("localstack");
+
+        const colimaTask = project.addTask("colima", {
+            exec: "colima status >/dev/null 2>&1 || colima start",
+        });
+
+        const envVars = [`LOCALSTACK_PORT=${port}`, `LOCALSTACK_DEBUG=${debug ? "1" : "0"}`];
+        if (options.services) {
+            envVars.push(`SERVICES=${options.services}`);
+        }
+
+        const localstackTask = project.addTask("localstack", {
+            exec: `localstack status || (${envVars.join(" ")} localstack start -d)`,
+        });
+
+        localstackTask.prependSpawn(colimaTask);
+
+        project.addDevDeps("aws-cdk-local");
+
+        const testTask = project.tasks.tryFind("test");
+        if (testTask) {
+            testTask.prependSpawn(localstackTask);
+        }
     }
 }

@@ -79,6 +79,10 @@
       "type": "peer"
     },
     {
+      "name": "@nikovirtala/projen-homebrew-dependencies",
+      "type": "runtime"
+    },
+    {
       "name": "projen",
       "type": "runtime"
     }
