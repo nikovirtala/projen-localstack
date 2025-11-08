@@ -10,7 +10,7 @@ export interface LocalStackOptions {
      * LocalStack services to enable.
      * @default - all services enabled
      */
-    readonly services?: string;
+    readonly services?: string[];
 
     /**
      * LocalStack gateway port.
@@ -58,11 +58,11 @@ export class LocalStack extends Component {
 
         const envVars = [`LOCALSTACK_PORT=${port}`, `LOCALSTACK_DEBUG=${debug ? "1" : "0"}`];
         if (options.services) {
-            envVars.push(`SERVICES=${options.services}`);
+            envVars.push(`SERVICES=${options.services.join(",")}`);
         }
 
         const localstackTask = project.addTask("localstack", {
-            exec: `localstack status || (${envVars.join(" ")} localstack start -d)`,
+            exec: `localstack status | grep -q running || ${envVars.join(" ")} localstack start -d`,
         });
 
         localstackTask.prependSpawn(colimaTask);

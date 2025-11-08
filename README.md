@@ -32,7 +32,7 @@ The LocalStack component accepts the following options:
 
 ```typescript
 new LocalStack(project, {
-    services: "s3,lambda,dynamodb", // Specific services to enable
+    services: ["s3", "lambda", "dynamodb"], // Specific services to enable
     port: 4566, // LocalStack gateway port (default: 4566)
     debug: true, // Enable debug mode (default: false)
     imageTag: "latest", // Docker image tag (default: "latest")
@@ -41,8 +41,7 @@ new LocalStack(project, {
 
 ## Features
 
-- Automatically installs LocalStack via Homebrew
-- Checks for Docker and installs Colima if needed
+- Automatically installs LocalStack and Colima via Homebrew
 - Creates tasks to manage Colima and LocalStack
 - Adds `aws-cdk-local` to devDependencies
 - Integrates with test task to start LocalStack before tests

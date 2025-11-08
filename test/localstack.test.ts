@@ -52,7 +52,7 @@ describe("LocalStack", () => {
         new LocalStack(project, {
             port: 8080,
             debug: true,
-            services: "s3,lambda",
+            services: ["s3", "lambda"],
         });
 
         const task = project.tasks.tryFind("localstack");

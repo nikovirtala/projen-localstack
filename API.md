@@ -190,7 +190,7 @@ const localStackOptions: LocalStackOptions = { ... }
 | <code><a href="#@nikovirtala/projen-localstack.LocalStackOptions.property.debug">debug</a></code> | <code>boolean</code> | Enable LocalStack debug mode. |
 | <code><a href="#@nikovirtala/projen-localstack.LocalStackOptions.property.imageTag">imageTag</a></code> | <code>string</code> | LocalStack Docker image tag. |
 | <code><a href="#@nikovirtala/projen-localstack.LocalStackOptions.property.port">port</a></code> | <code>number</code> | LocalStack gateway port. |
-| <code><a href="#@nikovirtala/projen-localstack.LocalStackOptions.property.services">services</a></code> | <code>string</code> | LocalStack services to enable. |
+| <code><a href="#@nikovirtala/projen-localstack.LocalStackOptions.property.services">services</a></code> | <code>string[]</code> | LocalStack services to enable. |
 
 ---
 
@@ -236,10 +236,10 @@ LocalStack gateway port.
 ##### `services`<sup>Optional</sup> <a name="services" id="@nikovirtala/projen-localstack.LocalStackOptions.property.services"></a>
 
 ```typescript
-public readonly services: string;
+public readonly services: string[];
 ```
 
-- *Type:* string
+- *Type:* string[]
 - *Default:* all services enabled
 
 LocalStack services to enable.
