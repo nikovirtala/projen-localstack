@@ -82,4 +82,7 @@ project.github
     ?.tryFindWorkflow("release")
     ?.file?.patch(JsonPatch.replace("/jobs/release_npm/steps/0/with/node-version", "24.x"));
 
+// remove once configured correctly to biome, mise and vitest components
+project.npmignore?.addPatterns("biome.jsonc", "mise.toml", "vitest.config.ts");
+
 project.synth();

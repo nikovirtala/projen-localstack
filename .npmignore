@@ -19,6 +19,9 @@ dist
 tsconfig.tsbuildinfo
 !.jsii
 /coverage/
+biome.jsonc
+mise.toml
+vitest.config.ts
 /.gitattributes
 /.projenrc.ts
 /projenrc
