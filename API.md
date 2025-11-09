@@ -13,19 +13,19 @@ Adds LocalStack support to your project with automatic Docker/Colima setup.
 ```typescript
 import { LocalStack } from '@nikovirtala/projen-localstack'
 
-new LocalStack(project: NodeProject, options?: LocalStackOptions)
+new LocalStack(scope: IConstruct, options?: LocalStackOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@nikovirtala/projen-localstack.LocalStack.Initializer.parameter.project">project</a></code> | <code>projen.javascript.NodeProject</code> | *No description.* |
+| <code><a href="#@nikovirtala/projen-localstack.LocalStack.Initializer.parameter.scope">scope</a></code> | <code>constructs.IConstruct</code> | *No description.* |
 | <code><a href="#@nikovirtala/projen-localstack.LocalStack.Initializer.parameter.options">options</a></code> | <code><a href="#@nikovirtala/projen-localstack.LocalStackOptions">LocalStackOptions</a></code> | *No description.* |
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@nikovirtala/projen-localstack.LocalStack.Initializer.parameter.project"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@nikovirtala/projen-localstack.LocalStack.Initializer.parameter.scope"></a>
 
-- *Type:* projen.javascript.NodeProject
+- *Type:* constructs.IConstruct
 
 ---
 

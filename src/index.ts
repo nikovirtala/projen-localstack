@@ -1,7 +1,8 @@
 import { Colima } from "@nikovirtala/projen-colima";
 import { Homebrew } from "@nikovirtala/projen-homebrew";
+import type { IConstruct } from "constructs";
 import { Component } from "projen/lib/component";
-import type { NodeProject } from "projen/lib/javascript";
+import { NodeProject } from "projen/lib/javascript";
 
 /**
  * Options for LocalStack component.
@@ -38,8 +39,13 @@ export interface LocalStackOptions {
  * Adds LocalStack support to your project with automatic Docker/Colima setup.
  */
 export class LocalStack extends Component {
-    constructor(project: NodeProject, options: LocalStackOptions = {}) {
-        super(project);
+    constructor(scope: IConstruct, options: LocalStackOptions = {}) {
+        super(scope);
+
+        const project = NodeProject.of(this);
+        if (!(project instanceof NodeProject)) {
+            throw new Error("LocalStack component requires a NodeProject");
+        }
 
         const port = options.port ?? 4566;
         const debug = options.debug ?? false;

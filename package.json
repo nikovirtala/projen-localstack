@@ -41,7 +41,7 @@
     "@types/node": "^22",
     "@vitest/coverage-v8": "^4",
     "commit-and-tag-version": "^12",
-    "constructs": "^10.0.0",
+    "constructs": "^10.4.3",
     "jsii": "~5.9.3",
     "jsii-diff": "^1.118.0",
     "jsii-docgen": "^10.5.0",
@@ -57,7 +57,7 @@
     "projen": "^0.98.10"
   },
   "dependencies": {
-    "@nikovirtala/projen-colima": "^1.0.0",
+    "@nikovirtala/projen-colima": "^1.0.1",
     "@nikovirtala/projen-homebrew": "^1.0.0",
     "projen": "^0.98.10"
   },
