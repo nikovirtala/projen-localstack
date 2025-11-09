@@ -79,6 +79,10 @@
       "type": "peer"
     },
     {
+      "name": "@nikovirtala/projen-colima",
+      "type": "runtime"
+    },
+    {
       "name": "@nikovirtala/projen-homebrew",
       "type": "runtime"
     },

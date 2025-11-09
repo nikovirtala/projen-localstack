@@ -1,3 +1,4 @@
+import { Colima } from "@nikovirtala/projen-colima";
 import { Homebrew } from "@nikovirtala/projen-homebrew";
 import { Component } from "projen/lib/component";
 import type { NodeProject } from "projen/lib/javascript";
@@ -43,18 +44,16 @@ export class LocalStack extends Component {
         const port = options.port ?? 4566;
         const debug = options.debug ?? false;
 
+        new Colima(project);
+
         let homebrew = Homebrew.of(project);
         if (!homebrew) {
             homebrew = new Homebrew(project);
         }
 
-        homebrew.addPackage("colima");
-        homebrew.addPackage("docker");
         homebrew.addPackage("localstack");
 
-        const colimaTask = project.addTask("colima", {
-            exec: "colima status >/dev/null 2>&1 || colima start",
-        });
+        const colimaTask = project.tasks.tryFind("colima");
 
         const envVars = [`LOCALSTACK_PORT=${port}`, `LOCALSTACK_DEBUG=${debug ? "1" : "0"}`];
         if (options.services) {
@@ -65,7 +64,9 @@ export class LocalStack extends Component {
             exec: `localstack status | grep -q running || ${envVars.join(" ")} localstack start -d`,
         });
 
-        localstackTask.prependSpawn(colimaTask);
+        if (colimaTask) {
+            localstackTask.prependSpawn(colimaTask);
+        }
 
         project.addDevDeps("aws-cdk-local");
 

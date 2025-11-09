@@ -41,17 +41,17 @@ new LocalStack(project, {
 
 ## Features
 
-- Automatically installs LocalStack and Colima via Homebrew
-- Creates tasks to manage Colima and LocalStack
+- Automatically installs LocalStack via Homebrew
+- Integrates with [@nikovirtala/projen-colima](https://github.com/nikovirtala/projen-colima) for Docker runtime
+- Creates task to manage LocalStack
 - Adds `aws-cdk-local` to devDependencies
 - Integrates with test task to start LocalStack before tests
 
 ## Tasks
 
-The component creates the following tasks:
+The component creates the following task:
 
-- `colima` - Starts Colima if not already running
-- `localstack` - Starts LocalStack if not already running
+- `localstack` - Starts LocalStack if not already running (depends on `colima` task from [@nikovirtala/projen-colima](https://github.com/nikovirtala/projen-colima))
 
 ## License
 

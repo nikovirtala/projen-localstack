@@ -7,7 +7,7 @@ const project = new cdk.JsiiProject({
     author: "Niko Virtala",
     authorAddress: "niko.virtala@hey.com",
     defaultReleaseBranch: "main",
-    deps: ["projen", "@nikovirtala/projen-homebrew"],
+    deps: ["projen", "@nikovirtala/projen-colima", "@nikovirtala/projen-homebrew"],
     devDeps: ["@nikovirtala/projen-vitest"],
     description: "LocalStack component for projen projects",
     dependabot: false,
