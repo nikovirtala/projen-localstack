@@ -11,7 +11,7 @@ describe("LocalStack", () => {
 
         new LocalStack(project);
 
-        expect(project.tasks.tryFind("install:brew:bundle")).toBeDefined();
+        expect(project.tasks.tryFind("homebrew:bundle")).toBeDefined();
     });
 
     it("should create colima task", () => {

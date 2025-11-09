@@ -1,4 +1,4 @@
-import { HomebrewDependencies } from "@nikovirtala/projen-homebrew-dependencies";
+import { Homebrew } from "@nikovirtala/projen-homebrew";
 import { Component } from "projen/lib/component";
 import type { NodeProject } from "projen/lib/javascript";
 
@@ -43,9 +43,9 @@ export class LocalStack extends Component {
         const port = options.port ?? 4566;
         const debug = options.debug ?? false;
 
-        let homebrew = HomebrewDependencies.of(project);
+        let homebrew = Homebrew.of(project);
         if (!homebrew) {
-            homebrew = new HomebrewDependencies(project);
+            homebrew = new Homebrew(project);
         }
 
         homebrew.addPackage("colima");
