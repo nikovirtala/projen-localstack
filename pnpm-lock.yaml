@@ -9,21 +9,21 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.13
-        version: 1.0.13(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))
+        specifier: ^1.0.14
+        version: 1.0.14(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.11
-        version: 1.0.11(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))
+        specifier: ^1.0.12
+        version: 1.0.12(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))
       projen:
-        specifier: ^0.98.18
-        version: 0.98.18(constructs@10.4.3)
+        specifier: ^0.98.20
+        version: 0.98.20(constructs@10.4.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^2
         version: 2.3.7
       '@nikovirtala/projen-vitest':
-        specifier: ^2.1.12
-        version: 2.1.12(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))
+        specifier: ^2.1.13
+        version: 2.1.13(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))
       '@types/node':
         specifier: ^22
         version: 22.19.1
@@ -357,26 +357,26 @@ packages:
     resolution: {integrity: sha512-A542Rq4h+DkBivoYWYmo86j8fdmd5kzGNN+2K+MhKPbZ3mHYRN6HHa3fLKYPcbNyLRi1eT+n8LXaVjEBtDKEDQ==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.13':
-    resolution: {integrity: sha512-oX8aNAvqcwGEx804yQQIoJSz39q0nD53fmop/R9N4w2kCtiI7HKkITAQmbhx2y18rHnXvT/I88L4qg8f9GJqbA==}
+  '@nikovirtala/projen-colima@1.0.14':
+    resolution: {integrity: sha512-Syvevpco4zUhO4OfI+LaymuBZFQEr9LQ8FqqMGHuArlIQJUoZDgy1pJg1vCEvZeCN53r4or9LwH3VbZMKGFh9w==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
-      projen: ^0.98.18
+      projen: ^0.98.20
 
-  '@nikovirtala/projen-homebrew@1.0.11':
-    resolution: {integrity: sha512-T3eEr1m3pJnoMpsUp7b23y6KvJ+qUpKo8rQlH6L8h3dl8uk891ibwfXUH69RItotMug1JyT8V4Dem27SFSOSYg==}
+  '@nikovirtala/projen-homebrew@1.0.12':
+    resolution: {integrity: sha512-9mVREDoSeSLdxmlcJgx81MjPozRgLyz3Tz3z7lgKLAGfSk99jJTs9H6iWVVN1qvc6oUh/ecFpNfdFkSJaZFNvQ==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
-      projen: ^0.98.18
+      projen: ^0.98.20
 
-  '@nikovirtala/projen-vitest@2.1.12':
-    resolution: {integrity: sha512-PeSvhUgaohBef1LykohMhogDhd3JqxJRjBS5307pH2cQpLa6WpqS3A8RQ9rd2LrXc1H2AcLPMu2q+lmh/50YHg==}
+  '@nikovirtala/projen-vitest@2.1.13':
+    resolution: {integrity: sha512-TyYNrvcrwQSNWiG9eIzQ1wGoFOlaqYu9ZW/iOGqUD3AcapUItQU9Hxl6uMZtkWsxY9ms2qshniPDyIZUFAuHMw==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
-      projen: ^0.98.18
+      projen: ^0.98.20
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1474,8 +1474,8 @@ packages:
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
 
-  projen@0.98.18:
-    resolution: {integrity: sha512-/xlU1y7tZwJzyhNLK9tofix+KsUpE0oNmacySb4/OhJnWzC/SEDsikoSfXEkDsjEdTOPaLMuMuF/mlyFa+/kbA==}
+  projen@0.98.20:
+    resolution: {integrity: sha512-67P4zQc7SKjyQ2745tz5mOzCj53HxkjWFmG1c3MeW6JePsccGJiltMi2zRbcWntykmDI+s7wsBGDvcbiEza3xQ==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -2161,21 +2161,21 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.13(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))':
+  '@nikovirtala/projen-colima@1.0.14(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.11(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))
+      '@nikovirtala/projen-homebrew': 1.0.12(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))
       constructs: 10.4.3
-      projen: 0.98.18(constructs@10.4.3)
+      projen: 0.98.20(constructs@10.4.3)
 
-  '@nikovirtala/projen-homebrew@1.0.11(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))':
+  '@nikovirtala/projen-homebrew@1.0.12(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
-      projen: 0.98.18(constructs@10.4.3)
+      projen: 0.98.20(constructs@10.4.3)
 
-  '@nikovirtala/projen-vitest@2.1.12(constructs@10.4.3)(projen@0.98.18(constructs@10.4.3))':
+  '@nikovirtala/projen-vitest@2.1.13(constructs@10.4.3)(projen@0.98.20(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
-      projen: 0.98.18(constructs@10.4.3)
+      projen: 0.98.20(constructs@10.4.3)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -3322,7 +3322,7 @@ snapshots:
 
   process-nextick-args@2.0.1: {}
 
-  projen@0.98.18(constructs@10.4.3):
+  projen@0.98.20(constructs@10.4.3):
     dependencies:
       constructs: 10.4.3
 
