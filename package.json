@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2",
-    "@nikovirtala/projen-vitest": "^2.1.15",
+    "@nikovirtala/projen-vitest": "^2.1.16",
     "@types/node": "^22",
     "@vitest/coverage-v8": "^4",
     "commit-and-tag-version": "^12",
@@ -47,19 +47,19 @@
     "jsii-docgen": "^10.5.0",
     "jsii-pacmak": "^1.120.0",
     "jsii-rosetta": "~5.9.3",
-    "projen": "^0.98.25",
+    "projen": "^0.98.26",
     "ts-node": "^10.9.2",
     "typescript": "5.9.3",
     "vitest": "^4"
   },
   "peerDependencies": {
     "constructs": "^10.4.3",
-    "projen": "^0.98.25"
+    "projen": "^0.98.26"
   },
   "dependencies": {
-    "@nikovirtala/projen-colima": "^1.0.16",
-    "@nikovirtala/projen-homebrew": "^1.0.14",
-    "projen": "^0.98.25"
+    "@nikovirtala/projen-colima": "^1.0.17",
+    "@nikovirtala/projen-homebrew": "^1.0.15",
+    "projen": "^0.98.26"
   },
   "pnpm": {},
   "engines": {
