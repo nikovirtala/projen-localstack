@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.19
-        version: 1.0.19(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
+        specifier: ^1.0.20
+        version: 1.0.20(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.16
-        version: 1.0.16(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
+        specifier: ^1.0.17
+        version: 1.0.17(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
       projen:
         specifier: ^0.98.26
         version: 0.98.26(constructs@10.4.3)
@@ -22,8 +22,8 @@ importers:
         specifier: ^2
         version: 2.3.8
       '@nikovirtala/projen-vitest':
-        specifier: ^2.1.17
-        version: 2.1.17(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
+        specifier: ^2.1.18
+        version: 2.1.18(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
       '@types/node':
         specifier: ^22
         version: 22.19.1
@@ -32,7 +32,7 @@ importers:
         version: 4.0.14(vitest@4.0.14(@types/node@22.19.1)(jsdom@25.0.1)(yaml@2.8.1))
       commit-and-tag-version:
         specifier: ^12
-        version: 12.6.0
+        version: 12.6.1
       constructs:
         specifier: ^10.4.3
         version: 10.4.3
@@ -365,22 +365,22 @@ packages:
     resolution: {integrity: sha512-BurJOykpQNhqR80h6/RXX5i8rEO574KUP5BfiKApe+RAsEevCdfF7+Ev5ekrUgMfxxfvaQZyNEY640hXPQgq1w==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.19':
-    resolution: {integrity: sha512-W/ozRyUbfLlxAe9AQGiqOGpcdRsTJ7J/CS0JLW9jv5Le7LYG9oHzKETraKEW9w1mcYn6THG1JhfNzujpcqyucg==}
+  '@nikovirtala/projen-colima@1.0.20':
+    resolution: {integrity: sha512-hghKzwoKeL9KbOsGZXi/PsVujiLU421lxwJ1JMRE3filHa2Bq+wmc0efn+kK1t14RSmlSGeYe3xj+4yjPprrpg==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
       projen: ^0.98.26
 
-  '@nikovirtala/projen-homebrew@1.0.16':
-    resolution: {integrity: sha512-w+IfDLz1GnAxJsJsgpOeRnIsBSYu/NKUKvu5o2BVIz2ssY6DbTmaDAG6Lmmu+/DIEhj0+haHm1AKkrTq56xz1Q==}
+  '@nikovirtala/projen-homebrew@1.0.17':
+    resolution: {integrity: sha512-8ikPhmBrS+VpKAp26/ShtGYgrI5dGkifNjFZ/y1AmbUMLTpbMEm+mP02cMw9PVYUfhPLdG4DEk9XEuEyJMEPAg==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
       projen: ^0.98.26
 
-  '@nikovirtala/projen-vitest@2.1.17':
-    resolution: {integrity: sha512-ppypF9uY05nmlKu5QTyMW9Cjc+5ozL9EnJGG9JEdqgDcGIU2vf4hAZf8L728YjUtB7Zfcf77/mGJ8gMJRoMK0g==}
+  '@nikovirtala/projen-vitest@2.1.18':
+    resolution: {integrity: sha512-JlYDWI2TKA0tOyBIv+C6XEAKzWmyK4FEPKLMKVaNAKb+8aAy0qibPJQqxcK7nsEIiqQg0nerySuyyQDdNH/1gA==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
@@ -715,8 +715,8 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
-  commit-and-tag-version@12.6.0:
-    resolution: {integrity: sha512-/x9+InrMz4G0GzDh1/ddrCsq4SKxRPS3vO5ShhZFG9EEr0GCZ3IrQPFpnBEgnIzm1XqwbkMYpIxFml7HuVs6mQ==}
+  commit-and-tag-version@12.6.1:
+    resolution: {integrity: sha512-QNwgDDrg44oFAiLwXChOGabeGlkuaEvD7lUbLYleWLmOVYqFidek0G6xUE1NbRtitkOrDx8fuFh8w17+nUCOYg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -959,6 +959,10 @@ packages:
   fast-uri@3.1.0:
     resolution: {integrity: sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==}
 
+  fast-xml-parser@5.3.2:
+    resolution: {integrity: sha512-n8v8b6p4Z1sMgqRmqLJm3awW4NX7NkaKPfb3uJIBTSH7Pdvufi3PQ3/lJLQrvxcMYl7JI2jnDO90siPEpD8JBA==}
+    hasBin: true
+
   fastq@1.19.1:
     resolution: {integrity: sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==}
 
@@ -998,8 +1002,8 @@ packages:
   flatted@3.3.3:
     resolution: {integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==}
 
-  form-data@4.0.4:
-    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
+  form-data@4.0.5:
+    resolution: {integrity: sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==}
     engines: {node: '>= 6'}
 
   fs-extra@10.1.0:
@@ -1683,6 +1687,9 @@ packages:
     resolution: {integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==}
     engines: {node: '>=8'}
 
+  strnum@2.1.1:
+    resolution: {integrity: sha512-7ZvoFTiCnGxBtDqJ//Cu6fWtZtc7Y3x+QOirG15wztbdngGSkht27o2pyGWrVy0b4WAy3jbKmnoK6g5VlVNUUw==}
+
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
     engines: {node: '>=4'}
@@ -1985,6 +1992,7 @@ snapshots:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
       lru-cache: 10.4.3
+    optional: true
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -2046,12 +2054,14 @@ snapshots:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
 
-  '@csstools/color-helpers@5.1.0': {}
+  '@csstools/color-helpers@5.1.0':
+    optional: true
 
   '@csstools/css-calc@2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)':
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
+    optional: true
 
   '@csstools/css-color-parser@3.1.0(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)':
     dependencies:
@@ -2059,12 +2069,15 @@ snapshots:
       '@csstools/css-calc': 2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
+    optional: true
 
   '@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4)':
     dependencies:
       '@csstools/css-tokenizer': 3.0.4
+    optional: true
 
-  '@csstools/css-tokenizer@3.0.4': {}
+  '@csstools/css-tokenizer@3.0.4':
+    optional: true
 
   '@esbuild/aix-ppc64@0.25.12':
     optional: true
@@ -2178,18 +2191,18 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.19(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))':
+  '@nikovirtala/projen-colima@1.0.20(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.16(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
+      '@nikovirtala/projen-homebrew': 1.0.17(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
       constructs: 10.4.3
       projen: 0.98.26(constructs@10.4.3)
 
-  '@nikovirtala/projen-homebrew@1.0.16(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))':
+  '@nikovirtala/projen-homebrew@1.0.17(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
       projen: 0.98.26(constructs@10.4.3)
 
-  '@nikovirtala/projen-vitest@2.1.17(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))':
+  '@nikovirtala/projen-vitest@2.1.18(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
       projen: 0.98.26(constructs@10.4.3)
@@ -2370,7 +2383,8 @@ snapshots:
 
   add-stream@1.0.0: {}
 
-  agent-base@7.1.4: {}
+  agent-base@7.1.4:
+    optional: true
 
   ajv@8.17.1:
     dependencies:
@@ -2403,7 +2417,8 @@ snapshots:
       estree-walker: 3.0.3
       js-tokens: 9.0.1
 
-  asynckit@0.4.0: {}
+  asynckit@0.4.0:
+    optional: true
 
   balanced-match@1.0.2: {}
 
@@ -2422,6 +2437,7 @@ snapshots:
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
+    optional: true
 
   camelcase-keys@6.2.2:
     dependencies:
@@ -2483,8 +2499,9 @@ snapshots:
   combined-stream@1.0.8:
     dependencies:
       delayed-stream: 1.0.0
+    optional: true
 
-  commit-and-tag-version@12.6.0:
+  commit-and-tag-version@12.6.1:
     dependencies:
       chalk: 2.4.2
       conventional-changelog: 4.0.0
@@ -2494,19 +2511,13 @@ snapshots:
       detect-indent: 6.1.0
       detect-newline: 3.1.0
       dotgitignore: 2.1.0
+      fast-xml-parser: 5.3.2
       figures: 3.2.0
       find-up: 5.0.0
       git-semver-tags: 5.0.1
-      jsdom: 25.0.1
       semver: 7.7.3
-      w3c-xmlserializer: 5.0.0
       yaml: 2.8.1
       yargs: 17.7.2
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - supports-color
-      - utf-8-validate
 
   commonmark@0.31.2:
     dependencies:
@@ -2626,6 +2637,7 @@ snapshots:
     dependencies:
       '@asamuzakjp/css-color': 3.2.0
       rrweb-cssom: 0.8.0
+    optional: true
 
   dargs@7.0.0: {}
 
@@ -2633,6 +2645,7 @@ snapshots:
     dependencies:
       whatwg-mimetype: 4.0.0
       whatwg-url: 14.2.0
+    optional: true
 
   date-format@4.0.14: {}
 
@@ -2651,9 +2664,11 @@ snapshots:
 
   decamelize@5.0.1: {}
 
-  decimal.js@10.6.0: {}
+  decimal.js@10.6.0:
+    optional: true
 
-  delayed-stream@1.0.0: {}
+  delayed-stream@1.0.0:
+    optional: true
 
   detect-indent@5.0.0: {}
 
@@ -2679,26 +2694,31 @@ snapshots:
       call-bind-apply-helpers: 1.0.2
       es-errors: 1.3.0
       gopd: 1.2.0
+    optional: true
 
   emoji-regex@8.0.0: {}
 
   entities@3.0.1: {}
 
-  entities@6.0.1: {}
+  entities@6.0.1:
+    optional: true
 
   error-ex@1.3.4:
     dependencies:
       is-arrayish: 0.2.1
 
-  es-define-property@1.0.1: {}
+  es-define-property@1.0.1:
+    optional: true
 
-  es-errors@1.3.0: {}
+  es-errors@1.3.0:
+    optional: true
 
   es-module-lexer@1.7.0: {}
 
   es-object-atoms@1.1.1:
     dependencies:
       es-errors: 1.3.0
+    optional: true
 
   es-set-tostringtag@2.1.0:
     dependencies:
@@ -2706,6 +2726,7 @@ snapshots:
       get-intrinsic: 1.3.0
       has-tostringtag: 1.0.2
       hasown: 2.0.2
+    optional: true
 
   esbuild@0.25.12:
     optionalDependencies:
@@ -2760,6 +2781,10 @@ snapshots:
 
   fast-uri@3.1.0: {}
 
+  fast-xml-parser@5.3.2:
+    dependencies:
+      strnum: 2.1.1
+
   fastq@1.19.1:
     dependencies:
       reusify: 1.1.0
@@ -2796,13 +2821,14 @@ snapshots:
 
   flatted@3.3.3: {}
 
-  form-data@4.0.4:
+  form-data@4.0.5:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       es-set-tostringtag: 2.1.0
       hasown: 2.0.2
       mime-types: 2.1.35
+    optional: true
 
   fs-extra@10.1.0:
     dependencies:
@@ -2835,6 +2861,7 @@ snapshots:
       has-symbols: 1.1.0
       hasown: 2.0.2
       math-intrinsics: 1.1.0
+    optional: true
 
   get-pkg-repo@4.2.1:
     dependencies:
@@ -2847,6 +2874,7 @@ snapshots:
     dependencies:
       dunder-proto: 1.0.1
       es-object-atoms: 1.1.1
+    optional: true
 
   git-raw-commits@3.0.0:
     dependencies:
@@ -2872,7 +2900,8 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  gopd@1.2.0: {}
+  gopd@1.2.0:
+    optional: true
 
   graceful-fs@4.2.11: {}
 
@@ -2891,11 +2920,13 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  has-symbols@1.1.0: {}
+  has-symbols@1.1.0:
+    optional: true
 
   has-tostringtag@1.0.2:
     dependencies:
       has-symbols: 1.1.0
+    optional: true
 
   hasown@2.0.2:
     dependencies:
@@ -2910,6 +2941,7 @@ snapshots:
   html-encoding-sniffer@4.0.0:
     dependencies:
       whatwg-encoding: 3.1.1
+    optional: true
 
   html-escaper@2.0.2: {}
 
@@ -2919,6 +2951,7 @@ snapshots:
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   https-proxy-agent@7.0.6:
     dependencies:
@@ -2926,10 +2959,12 @@ snapshots:
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   iconv-lite@0.6.3:
     dependencies:
       safer-buffer: 2.1.2
+    optional: true
 
   indent-string@4.0.0: {}
 
@@ -2957,7 +2992,8 @@ snapshots:
 
   is-plain-obj@1.1.0: {}
 
-  is-potential-custom-element-name@1.0.1: {}
+  is-potential-custom-element-name@1.0.1:
+    optional: true
 
   is-text-path@1.0.1:
     dependencies:
@@ -2995,7 +3031,7 @@ snapshots:
       cssstyle: 4.6.0
       data-urls: 5.0.0
       decimal.js: 10.6.0
-      form-data: 4.0.4
+      form-data: 4.0.5
       html-encoding-sniffer: 4.0.0
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -3017,6 +3053,7 @@ snapshots:
       - bufferutil
       - supports-color
       - utf-8-validate
+    optional: true
 
   jsii-diff@1.120.0:
     dependencies:
@@ -3164,7 +3201,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  lru-cache@10.4.3: {}
+  lru-cache@10.4.3:
+    optional: true
 
   lru-cache@6.0.0:
     dependencies:
@@ -3190,7 +3228,8 @@ snapshots:
 
   map-obj@4.3.0: {}
 
-  math-intrinsics@1.1.0: {}
+  math-intrinsics@1.1.0:
+    optional: true
 
   mdurl@1.0.1: {}
 
@@ -3215,11 +3254,13 @@ snapshots:
       braces: 3.0.3
       picomatch: 2.3.1
 
-  mime-db@1.52.0: {}
+  mime-db@1.52.0:
+    optional: true
 
   mime-types@2.1.35:
     dependencies:
       mime-db: 1.52.0
+    optional: true
 
   min-indent@1.0.1: {}
 
@@ -3257,7 +3298,8 @@ snapshots:
       semver: 7.7.3
       validate-npm-package-license: 3.0.4
 
-  nwsapi@2.2.22: {}
+  nwsapi@2.2.22:
+    optional: true
 
   obug@2.1.1: {}
 
@@ -3310,6 +3352,7 @@ snapshots:
   parse5@7.3.0:
     dependencies:
       entities: 6.0.1
+    optional: true
 
   path-exists@3.0.0: {}
 
@@ -3345,7 +3388,8 @@ snapshots:
     dependencies:
       constructs: 10.4.3
 
-  punycode@2.3.1: {}
+  punycode@2.3.1:
+    optional: true
 
   queue-microtask@1.2.3: {}
 
@@ -3438,9 +3482,11 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.53.1
       fsevents: 2.3.3
 
-  rrweb-cssom@0.7.1: {}
+  rrweb-cssom@0.7.1:
+    optional: true
 
-  rrweb-cssom@0.8.0: {}
+  rrweb-cssom@0.8.0:
+    optional: true
 
   run-parallel@1.2.0:
     dependencies:
@@ -3450,11 +3496,13 @@ snapshots:
 
   safe-buffer@5.2.1: {}
 
-  safer-buffer@2.1.2: {}
+  safer-buffer@2.1.2:
+    optional: true
 
   saxes@6.0.0:
     dependencies:
       xmlchars: 2.2.0
+    optional: true
 
   semver-intersect@1.5.0:
     dependencies:
@@ -3544,6 +3592,8 @@ snapshots:
     dependencies:
       min-indent: 1.0.1
 
+  strnum@2.1.1: {}
+
   supports-color@5.5.0:
     dependencies:
       has-flag: 3.0.0
@@ -3554,7 +3604,8 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  symbol-tree@3.2.4: {}
+  symbol-tree@3.2.4:
+    optional: true
 
   text-extensions@1.9.0: {}
 
@@ -3576,11 +3627,13 @@ snapshots:
 
   tinyrainbow@3.0.3: {}
 
-  tldts-core@6.1.86: {}
+  tldts-core@6.1.86:
+    optional: true
 
   tldts@6.1.86:
     dependencies:
       tldts-core: 6.1.86
+    optional: true
 
   to-regex-range@5.0.1:
     dependencies:
@@ -3589,10 +3642,12 @@ snapshots:
   tough-cookie@5.1.2:
     dependencies:
       tldts: 6.1.86
+    optional: true
 
   tr46@5.1.1:
     dependencies:
       punycode: 2.3.1
+    optional: true
 
   trim-newlines@3.0.1: {}
 
@@ -3696,19 +3751,24 @@ snapshots:
   w3c-xmlserializer@5.0.0:
     dependencies:
       xml-name-validator: 5.0.0
+    optional: true
 
-  webidl-conversions@7.0.0: {}
+  webidl-conversions@7.0.0:
+    optional: true
 
   whatwg-encoding@3.1.1:
     dependencies:
       iconv-lite: 0.6.3
+    optional: true
 
-  whatwg-mimetype@4.0.0: {}
+  whatwg-mimetype@4.0.0:
+    optional: true
 
   whatwg-url@14.2.0:
     dependencies:
       tr46: 5.1.1
       webidl-conversions: 7.0.0
+    optional: true
 
   why-is-node-running@2.3.0:
     dependencies:
@@ -3725,13 +3785,16 @@ snapshots:
       string-width: 4.2.3
       strip-ansi: 6.0.1
 
-  ws@8.18.3: {}
+  ws@8.18.3:
+    optional: true
 
-  xml-name-validator@5.0.0: {}
+  xml-name-validator@5.0.0:
+    optional: true
 
   xmlbuilder@15.1.1: {}
 
-  xmlchars@2.2.0: {}
+  xmlchars@2.2.0:
+    optional: true
 
   xtend@4.0.2: {}
 
