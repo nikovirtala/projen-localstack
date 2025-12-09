@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.26
-        version: 1.0.26(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))
+        specifier: ^1.0.27
+        version: 1.0.27(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.21
-        version: 1.0.21(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))
+        specifier: ^1.0.22
+        version: 1.0.22(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))
       projen:
         specifier: ^0.98.28
         version: 0.98.28(constructs@10.4.3)
@@ -22,14 +22,14 @@ importers:
         specifier: ^2
         version: 2.3.8
       '@nikovirtala/projen-vitest':
-        specifier: ^2.1.22
-        version: 2.1.22(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))
+        specifier: ^2.1.23
+        version: 2.1.23(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))
       '@types/node':
         specifier: ^22
-        version: 22.19.1
+        version: 22.19.2
       '@vitest/coverage-v8':
         specifier: ^4
-        version: 4.0.15(vitest@4.0.15(@types/node@22.19.1)(jsdom@25.0.1)(yaml@2.8.1))
+        version: 4.0.15(vitest@4.0.15(@types/node@22.19.2)(jsdom@25.0.1)(yaml@2.8.1))
       commit-and-tag-version:
         specifier: ^12
         version: 12.6.1
@@ -53,13 +53,13 @@ importers:
         version: 5.9.15
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.19.1)(typescript@5.9.3)
+        version: 10.9.2(@types/node@22.19.2)(typescript@5.9.3)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
       vitest:
         specifier: ^4
-        version: 4.0.15(@types/node@22.19.1)(jsdom@25.0.1)(yaml@2.8.1)
+        version: 4.0.15(@types/node@22.19.2)(jsdom@25.0.1)(yaml@2.8.1)
 
 packages:
 
@@ -365,22 +365,22 @@ packages:
     resolution: {integrity: sha512-BurJOykpQNhqR80h6/RXX5i8rEO574KUP5BfiKApe+RAsEevCdfF7+Ev5ekrUgMfxxfvaQZyNEY640hXPQgq1w==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.26':
-    resolution: {integrity: sha512-FKIOnWntysmhiOvy/3ijL1QEpH4NOHuiOuuJihfKdk/GOKRdlFgU+CNn+jyUSD8YwmlEGTMzGy4HXNCkDrnvxg==}
+  '@nikovirtala/projen-colima@1.0.27':
+    resolution: {integrity: sha512-bfLG7c6H+mKGU8fesKwau5Jb5opQHHjPqGgqMfgLDlpACJrAhudnKWYHRm3wDqAFTakHWuEz33l25AdmG3gz1g==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
       projen: ^0.98.28
 
-  '@nikovirtala/projen-homebrew@1.0.21':
-    resolution: {integrity: sha512-ZeRKXyhEBVsuoqD622GibH8JHiIIJTizNCc4eSIe8cPIIRlZCq1paRBWZ+AgCkuZ8F/C3bgYsWCGT4GWmkW5Cw==}
+  '@nikovirtala/projen-homebrew@1.0.22':
+    resolution: {integrity: sha512-XX1kzsFygyqzDTM/IRc8rziay+U6SRMHm+AfGb0hG9jr8prbxmqGZiXop6udaJ8wvoFA7hwQf5HeuFwORbzMIw==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
       projen: ^0.98.28
 
-  '@nikovirtala/projen-vitest@2.1.22':
-    resolution: {integrity: sha512-wEqQOxBeuDYVyZFXtwdACFKJSrhmClALrK5rgiLbwCUfmh8ck3vg0+z9JlGXWDFMAfoHM95Q24XijxPt3jj1iw==}
+  '@nikovirtala/projen-vitest@2.1.23':
+    resolution: {integrity: sha512-fHL396nEQWRmefiL29qBRQJsfvF+ZzVykKq2v82ejONMfqPMFcOEyvdti14ihyS/nI/4mz9epD2lDcx3tISPWQ==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
@@ -535,8 +535,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@22.19.1':
-    resolution: {integrity: sha512-LCCV0HdSZZZb34qifBsyWlUmok6W7ouER+oQIGBScS8EsZsQbrtFTUrDX4hOl+CS6p7cnNC4td+qrSVGSCTUfQ==}
+  '@types/node@22.19.2':
+    resolution: {integrity: sha512-LPM2G3Syo1GLzXLGJAKdqoU35XvrWzGJ21/7sgZTUpbkBaOasTj8tjwn6w+hCkqaa1TfJ/w67rJSwYItlJ2mYw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2192,18 +2192,18 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.26(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))':
+  '@nikovirtala/projen-colima@1.0.27(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.21(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))
+      '@nikovirtala/projen-homebrew': 1.0.22(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))
       constructs: 10.4.3
       projen: 0.98.28(constructs@10.4.3)
 
-  '@nikovirtala/projen-homebrew@1.0.21(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))':
+  '@nikovirtala/projen-homebrew@1.0.22(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
       projen: 0.98.28(constructs@10.4.3)
 
-  '@nikovirtala/projen-vitest@2.1.22(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))':
+  '@nikovirtala/projen-vitest@2.1.23(constructs@10.4.3)(projen@0.98.28(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
       projen: 0.98.28(constructs@10.4.3)
@@ -2307,13 +2307,13 @@ snapshots:
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@22.19.1':
+  '@types/node@22.19.2':
     dependencies:
       undici-types: 6.21.0
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@vitest/coverage-v8@4.0.15(vitest@4.0.15(@types/node@22.19.1)(jsdom@25.0.1)(yaml@2.8.1))':
+  '@vitest/coverage-v8@4.0.15(vitest@4.0.15(@types/node@22.19.2)(jsdom@25.0.1)(yaml@2.8.1))':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@vitest/utils': 4.0.15
@@ -2326,7 +2326,7 @@ snapshots:
       obug: 2.1.1
       std-env: 3.10.0
       tinyrainbow: 3.0.3
-      vitest: 4.0.15(@types/node@22.19.1)(jsdom@25.0.1)(yaml@2.8.1)
+      vitest: 4.0.15(@types/node@22.19.2)(jsdom@25.0.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -2339,13 +2339,13 @@ snapshots:
       chai: 6.2.1
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.15(vite@7.2.2(@types/node@22.19.1)(yaml@2.8.1))':
+  '@vitest/mocker@4.0.15(vite@7.2.2(@types/node@22.19.2)(yaml@2.8.1))':
     dependencies:
       '@vitest/spy': 4.0.15
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.2.2(@types/node@22.19.1)(yaml@2.8.1)
+      vite: 7.2.2(@types/node@22.19.2)(yaml@2.8.1)
 
   '@vitest/pretty-format@4.0.15':
     dependencies:
@@ -3652,14 +3652,14 @@ snapshots:
 
   trim-newlines@3.0.1: {}
 
-  ts-node@10.9.2(@types/node@22.19.1)(typescript@5.9.3):
+  ts-node@10.9.2(@types/node@22.19.2)(typescript@5.9.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.19.1
+      '@types/node': 22.19.2
       acorn: 8.15.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -3698,7 +3698,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite@7.2.2(@types/node@22.19.1)(yaml@2.8.1):
+  vite@7.2.2(@types/node@22.19.2)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -3707,14 +3707,14 @@ snapshots:
       rollup: 4.53.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 22.19.1
+      '@types/node': 22.19.2
       fsevents: 2.3.3
       yaml: 2.8.1
 
-  vitest@4.0.15(@types/node@22.19.1)(jsdom@25.0.1)(yaml@2.8.1):
+  vitest@4.0.15(@types/node@22.19.2)(jsdom@25.0.1)(yaml@2.8.1):
     dependencies:
       '@vitest/expect': 4.0.15
-      '@vitest/mocker': 4.0.15(vite@7.2.2(@types/node@22.19.1)(yaml@2.8.1))
+      '@vitest/mocker': 4.0.15(vite@7.2.2(@types/node@22.19.2)(yaml@2.8.1))
       '@vitest/pretty-format': 4.0.15
       '@vitest/runner': 4.0.15
       '@vitest/snapshot': 4.0.15
@@ -3731,10 +3731,10 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.2.2(@types/node@22.19.1)(yaml@2.8.1)
+      vite: 7.2.2(@types/node@22.19.2)(yaml@2.8.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.19.1
+      '@types/node': 22.19.2
       jsdom: 25.0.1
     transitivePeerDependencies:
       - jiti
