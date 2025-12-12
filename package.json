@@ -37,11 +37,11 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2",
-    "@nikovirtala/projen-vitest": "^2.1.24",
+    "@nikovirtala/projen-vitest": "^2.1.25",
     "@types/node": "^22",
     "@vitest/coverage-v8": "^4",
     "commit-and-tag-version": "^12",
-    "constructs": "^10.4.3",
+    "constructs": "^10.4.4",
     "jsii": "~5.9.3",
     "jsii-diff": "^1.121.0",
     "jsii-docgen": "^10.5.0",
@@ -53,12 +53,12 @@
     "vitest": "^4"
   },
   "peerDependencies": {
-    "constructs": "^10.4.3",
+    "constructs": "^10.4.4",
     "projen": "^0.98.29"
   },
   "dependencies": {
-    "@nikovirtala/projen-colima": "^1.0.29",
-    "@nikovirtala/projen-homebrew": "^1.0.23",
+    "@nikovirtala/projen-colima": "^1.0.30",
+    "@nikovirtala/projen-homebrew": "^1.0.24",
     "projen": "^0.98.29"
   },
   "pnpm": {},
