@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.36
-        version: 1.0.36(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+        specifier: ^1.0.37
+        version: 1.0.37(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.30
-        version: 1.0.30(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+        specifier: ^1.0.31
+        version: 1.0.31(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
       projen:
         specifier: ^0.98.30
         version: 0.98.30(constructs@10.4.4)
@@ -22,8 +22,8 @@ importers:
         specifier: ^2
         version: 2.3.10
       '@nikovirtala/projen-vitest':
-        specifier: ^2.1.30
-        version: 2.1.30(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+        specifier: ^2.1.31
+        version: 2.1.31(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
       '@types/node':
         specifier: ^22
         version: 22.19.3
@@ -44,13 +44,13 @@ importers:
         version: 1.121.0
       jsii-docgen:
         specifier: ^10.5.0
-        version: 10.11.6(jsii-rosetta@5.9.21)
+        version: 10.11.6(jsii-rosetta@5.9.22)
       jsii-pacmak:
         specifier: ^1.121.0
-        version: 1.121.0(jsii-rosetta@5.9.21)
+        version: 1.121.0(jsii-rosetta@5.9.22)
       jsii-rosetta:
         specifier: ~5.9.3
-        version: 5.9.21
+        version: 5.9.22
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.19.3)(typescript@5.9.3)
@@ -357,22 +357,22 @@ packages:
     resolution: {integrity: sha512-TDDUKTSRgRB0j2Yti+LOgUzjka8D+NdJm9vzYu1DOGu8Oje8cl9hRYZUmGoW8dWQLnF1dcouUP0n9PLvVKzu5w==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.36':
-    resolution: {integrity: sha512-3sPc081cdKgkm5w7XI1svJyQksUyCxh9Nb9ieRXyeYnfrL8O1ODUIL9pdHZQhKq9+Zv8CvNgnrvAHdeEWsF3Gw==}
+  '@nikovirtala/projen-colima@1.0.37':
+    resolution: {integrity: sha512-iNQa+B1CoNcLm/lKojOvJ+44l78c44G6KOI3sZL02yGZLXKRGtodvmgTomkzL9r7GHP2QNISvGRNRLcJJtZ8QA==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.4
       projen: ^0.98.30
 
-  '@nikovirtala/projen-homebrew@1.0.30':
-    resolution: {integrity: sha512-xWdhdmFNfBmCibU+090cz551U4lkYNynkN4jxX5Akk9jQvYBYalqoowIdbSHbhAsMjLXYuzAZv6J97MNmvZu1Q==}
+  '@nikovirtala/projen-homebrew@1.0.31':
+    resolution: {integrity: sha512-boLW59GjVToP4eMvZbAPP4zxQIjVLbpZKA8S39zJQzSCiF20Hzwmuk85M1irXf3zo/DFxZJu2wS8YREGAbTA7Q==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.4
       projen: ^0.98.30
 
-  '@nikovirtala/projen-vitest@2.1.30':
-    resolution: {integrity: sha512-ObKi44LfKU/dOI3sOCVJtb3dETNn/deG3JEpU5HNbP4jv1Ql2ierQcFapURo+1fMkOecNd3JeGUeQXfgYGhNoQ==}
+  '@nikovirtala/projen-vitest@2.1.31':
+    resolution: {integrity: sha512-nTYt9z3nJYssOBeJfQw3sANZYOd6h7joy/vowVms3dRe9fictoTtZAoy+b8t62YBFyR8AUdRZuF0g3Bok4VCuw==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.4
@@ -1219,8 +1219,8 @@ packages:
     engines: {node: '>= 14.17.0'}
     hasBin: true
 
-  jsii-rosetta@5.9.21:
-    resolution: {integrity: sha512-oexuS+gKmlLUhotMKiAndRXYnapDvLdUtWkWFt6afGRJJBPL3aPL54aHJmyMOIC43lUhU+az/8N8ewgPls2wQg==}
+  jsii-rosetta@5.9.22:
+    resolution: {integrity: sha512-FcZRHybS+0CSJxfRfIXlG+5lNMC4T1SkF/zW5FJfj+f9D3vtg3Ju0JEpjM9yoxSV4CPdSAxxbFo4GKgY6a4A9Q==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
 
@@ -2175,18 +2175,18 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.36(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
+  '@nikovirtala/projen-colima@1.0.37(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.30(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+      '@nikovirtala/projen-homebrew': 1.0.31(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
       constructs: 10.4.4
       projen: 0.98.30(constructs@10.4.4)
 
-  '@nikovirtala/projen-homebrew@1.0.30(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
+  '@nikovirtala/projen-homebrew@1.0.31(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
     dependencies:
       constructs: 10.4.4
       projen: 0.98.30(constructs@10.4.4)
 
-  '@nikovirtala/projen-vitest@2.1.30(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
+  '@nikovirtala/projen-vitest@2.1.31(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
     dependencies:
       constructs: 10.4.4
       projen: 0.98.30(constructs@10.4.4)
@@ -3050,19 +3050,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsii-docgen@10.11.6(jsii-rosetta@5.9.21):
+  jsii-docgen@10.11.6(jsii-rosetta@5.9.22):
     dependencies:
       '@jsii/spec': 1.121.0
       case: 1.6.3
       fast-glob: 3.3.3
       fs-extra: 10.1.0
       jsii-reflect: 1.121.0
-      jsii-rosetta: 5.9.21
+      jsii-rosetta: 5.9.22
       json-stream-stringify: 3.1.6
       semver: 7.7.3
       yargs: 16.2.0
 
-  jsii-pacmak@1.121.0(jsii-rosetta@5.9.21):
+  jsii-pacmak@1.121.0(jsii-rosetta@5.9.22):
     dependencies:
       '@jsii/check-node': 1.121.0
       '@jsii/spec': 1.121.0
@@ -3072,7 +3072,7 @@ snapshots:
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
       jsii-reflect: 1.121.0
-      jsii-rosetta: 5.9.21
+      jsii-rosetta: 5.9.22
       semver: 7.7.3
       spdx-license-list: 6.10.0
       xmlbuilder: 15.1.1
@@ -3087,7 +3087,7 @@ snapshots:
       oo-ascii-tree: 1.121.0
       yargs: 17.7.2
 
-  jsii-rosetta@5.9.21:
+  jsii-rosetta@5.9.22:
     dependencies:
       '@jsii/check-node': 1.121.0
       '@jsii/spec': 1.121.0
