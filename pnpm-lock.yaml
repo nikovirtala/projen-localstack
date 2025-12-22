@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.39
-        version: 1.0.39(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+        specifier: ^1.0.40
+        version: 1.0.40(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.32
-        version: 1.0.32(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+        specifier: ^1.0.33
+        version: 1.0.33(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
       projen:
         specifier: ^0.98.30
         version: 0.98.30(constructs@10.4.4)
@@ -44,13 +44,13 @@ importers:
         version: 1.121.0
       jsii-docgen:
         specifier: ^10.5.0
-        version: 10.11.7(jsii-rosetta@5.9.22)
+        version: 10.11.7(jsii-rosetta@5.9.23)
       jsii-pacmak:
         specifier: ^1.121.0
-        version: 1.121.0(jsii-rosetta@5.9.22)
+        version: 1.121.0(jsii-rosetta@5.9.23)
       jsii-rosetta:
         specifier: ~5.9.3
-        version: 5.9.22
+        version: 5.9.23
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.19.3)(typescript@5.9.3)
@@ -357,15 +357,15 @@ packages:
     resolution: {integrity: sha512-TDDUKTSRgRB0j2Yti+LOgUzjka8D+NdJm9vzYu1DOGu8Oje8cl9hRYZUmGoW8dWQLnF1dcouUP0n9PLvVKzu5w==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.39':
-    resolution: {integrity: sha512-U6kSII2GdjZn0HdI3GXGY+TV6+k0uKDAg4ooQ9mlWXK1MQgKNDJLo/3aXrRo0UxYcjQRNO1uvrbMUtKgCi8lpQ==}
+  '@nikovirtala/projen-colima@1.0.40':
+    resolution: {integrity: sha512-mxGyA5xPwfueeOZNX2lfIfr/uqM2q1AWdgZZ1aGuvOumR72vJeK3gOg+G05SvxdU7GTbYWZ4Qju1v8YaDMdtAg==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.4
       projen: ^0.98.30
 
-  '@nikovirtala/projen-homebrew@1.0.32':
-    resolution: {integrity: sha512-Crdjd/8fBg6DX3+AXoWaFRypfk9bNdhI9RyWSXv1Sc+yxgTeOLKaQ1raD+byhJruDz9qnIrF/rY8aF9COPePJA==}
+  '@nikovirtala/projen-homebrew@1.0.33':
+    resolution: {integrity: sha512-pmjOAf6cYATd4vP/Dpe3RDRe4/WFcUSHikXYdAZYduy6LFInCADCpOCmtfTzlazWVtkM3BXCNhC5etnRRiTt7Q==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.4
@@ -1219,8 +1219,8 @@ packages:
     engines: {node: '>= 14.17.0'}
     hasBin: true
 
-  jsii-rosetta@5.9.22:
-    resolution: {integrity: sha512-FcZRHybS+0CSJxfRfIXlG+5lNMC4T1SkF/zW5FJfj+f9D3vtg3Ju0JEpjM9yoxSV4CPdSAxxbFo4GKgY6a4A9Q==}
+  jsii-rosetta@5.9.23:
+    resolution: {integrity: sha512-gmhf0icQsi6AePSMEXyi1qcxNF84fvJPz0GdsjzezBHU89gLcuz186jVJv+s1QUPNQ/G3tJ5aQxbgJ9ZTqtvFg==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
 
@@ -2175,13 +2175,13 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.39(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
+  '@nikovirtala/projen-colima@1.0.40(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.32(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+      '@nikovirtala/projen-homebrew': 1.0.33(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
       constructs: 10.4.4
       projen: 0.98.30(constructs@10.4.4)
 
-  '@nikovirtala/projen-homebrew@1.0.32(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
+  '@nikovirtala/projen-homebrew@1.0.33(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
     dependencies:
       constructs: 10.4.4
       projen: 0.98.30(constructs@10.4.4)
@@ -3050,19 +3050,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsii-docgen@10.11.7(jsii-rosetta@5.9.22):
+  jsii-docgen@10.11.7(jsii-rosetta@5.9.23):
     dependencies:
       '@jsii/spec': 1.121.0
       case: 1.6.3
       fast-glob: 3.3.3
       fs-extra: 10.1.0
       jsii-reflect: 1.121.0
-      jsii-rosetta: 5.9.22
+      jsii-rosetta: 5.9.23
       json-stream-stringify: 3.1.6
       semver: 7.7.3
       yargs: 16.2.0
 
-  jsii-pacmak@1.121.0(jsii-rosetta@5.9.22):
+  jsii-pacmak@1.121.0(jsii-rosetta@5.9.23):
     dependencies:
       '@jsii/check-node': 1.121.0
       '@jsii/spec': 1.121.0
@@ -3072,7 +3072,7 @@ snapshots:
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
       jsii-reflect: 1.121.0
-      jsii-rosetta: 5.9.22
+      jsii-rosetta: 5.9.23
       semver: 7.7.3
       spdx-license-list: 6.10.0
       xmlbuilder: 15.1.1
@@ -3087,7 +3087,7 @@ snapshots:
       oo-ascii-tree: 1.121.0
       yargs: 17.7.2
 
-  jsii-rosetta@5.9.22:
+  jsii-rosetta@5.9.23:
     dependencies:
       '@jsii/check-node': 1.121.0
       '@jsii/spec': 1.121.0
