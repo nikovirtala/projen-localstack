@@ -43,23 +43,23 @@
     "commit-and-tag-version": "^12",
     "constructs": "^10.4.4",
     "jsii": "~5.9.3",
-    "jsii-diff": "^1.122.0",
+    "jsii-diff": "^1.123.0",
     "jsii-docgen": "^10.5.0",
-    "jsii-pacmak": "^1.122.0",
+    "jsii-pacmak": "^1.123.0",
     "jsii-rosetta": "~5.9.3",
-    "projen": "^0.98.30",
+    "projen": "^0.98.31",
     "ts-node": "^10.9.2",
     "typescript": "5.9.3",
     "vitest": "^4"
   },
   "peerDependencies": {
     "constructs": "^10.4.4",
-    "projen": "^0.98.30"
+    "projen": "^0.98.31"
   },
   "dependencies": {
-    "@nikovirtala/projen-colima": "^1.0.44",
-    "@nikovirtala/projen-homebrew": "^1.0.36",
-    "projen": "^0.98.30"
+    "@nikovirtala/projen-colima": "^1.0.45",
+    "@nikovirtala/projen-homebrew": "^1.0.37",
+    "projen": "^0.98.31"
   },
   "pnpm": {},
   "engines": {

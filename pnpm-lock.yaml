@@ -9,21 +9,21 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.44
-        version: 1.0.44(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+        specifier: ^1.0.45
+        version: 1.0.45(constructs@10.4.4)(projen@0.98.31(constructs@10.4.4))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.36
-        version: 1.0.36(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+        specifier: ^1.0.37
+        version: 1.0.37(constructs@10.4.4)(projen@0.98.31(constructs@10.4.4))
       projen:
-        specifier: ^0.98.30
-        version: 0.98.30(constructs@10.4.4)
+        specifier: ^0.98.31
+        version: 0.98.31(constructs@10.4.4)
     devDependencies:
       '@biomejs/biome':
         specifier: ^2
         version: 2.3.10
       '@nikovirtala/projen-vitest':
         specifier: ^2.1.34
-        version: 2.1.34(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
+        version: 2.1.34(constructs@10.4.4)(projen@0.98.31(constructs@10.4.4))
       '@types/node':
         specifier: ^22
         version: 22.19.3
@@ -40,14 +40,14 @@ importers:
         specifier: ~5.9.3
         version: 5.9.21
       jsii-diff:
-        specifier: ^1.122.0
-        version: 1.122.0
+        specifier: ^1.123.0
+        version: 1.123.0
       jsii-docgen:
         specifier: ^10.5.0
-        version: 10.11.9(jsii-rosetta@5.9.24)
+        version: 10.11.10(jsii-rosetta@5.9.24)
       jsii-pacmak:
-        specifier: ^1.122.0
-        version: 1.122.0(jsii-rosetta@5.9.24)
+        specifier: ^1.123.0
+        version: 1.123.0(jsii-rosetta@5.9.24)
       jsii-rosetta:
         specifier: ~5.9.3
         version: 5.9.24
@@ -353,23 +353,31 @@ packages:
     resolution: {integrity: sha512-WwolUMLYgSlW8bKbdnXR7HctKEbWxSEme6hZeLn5B9I72GbfN8SaI+xm2uoHsHMyy0UGMKbK10q9UIua/CPefQ==}
     engines: {node: '>= 14.17.0'}
 
+  '@jsii/check-node@1.123.0':
+    resolution: {integrity: sha512-FPPXLEVZfuDshHsXUHlsp+NvVVpM0vLFHNUbIz8NgZXkcztxsiKOBEA7dy5QwM22FKiagF4+vqwWOczJEsNGvw==}
+    engines: {node: '>= 14.17.0'}
+
   '@jsii/spec@1.122.0':
     resolution: {integrity: sha512-nGJJCwJC9xPKJVM8DKYbMfBXCQ3DuCxk5YrrEcbc8WWfHcP4P6vZWkwvBfx0GL9DOOClKqgxwnp0q2h17Y69+A==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.44':
-    resolution: {integrity: sha512-brDCMhFR9JRml+gPoWGqY879gFitvD3m6RTNuMHHB2dNarCE7DYLU6kPBLHtPyBhzGnlklIb//AeN+nrGXOPpQ==}
-    engines: {node: '>= 22.21.1'}
-    peerDependencies:
-      constructs: ^10.4.4
-      projen: ^0.98.30
+  '@jsii/spec@1.123.0':
+    resolution: {integrity: sha512-yzH6wD2wzumqFILcsLISeTSCm1MXB0ctJnVoqFHCduWa6dP7xnRXLpt2umFNwoYLDi9te2t1+DW4Itl/Qax5mw==}
+    engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-homebrew@1.0.36':
-    resolution: {integrity: sha512-8EW6jPMNzHjkHcwf2nFMbUM8TZhXeCH6MCEj4f/L8qvT+rfsuKnB4Xz5eWU7qtxeQ+7IZ5Uxx2W6NhV4VMgPmw==}
+  '@nikovirtala/projen-colima@1.0.45':
+    resolution: {integrity: sha512-KTdBmbzHAdsUopasabLoEu0YUteCQtRAOurqzk+TBm+EM6/HaRDonMl9cQetTGoxMaQNC8yJPLLxyWfJyDsNSQ==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.4
-      projen: ^0.98.30
+      projen: ^0.98.31
+
+  '@nikovirtala/projen-homebrew@1.0.37':
+    resolution: {integrity: sha512-dt4rgxyQeT9Vo8l4Q7/WZaT5YDtzcVGxVR7Jd0RKBezw/qwLjjUZ/RaTyX1qB4kpiaFH1+DJ51HWpcnD+qo4sw==}
+    engines: {node: '>= 22.21.1'}
+    peerDependencies:
+      constructs: ^10.4.4
+      projen: ^0.98.31
 
   '@nikovirtala/projen-vitest@2.1.34':
     resolution: {integrity: sha512-UIew3cseWGqpoli/kQ68Kyp+d8DvZkNPuHuRCm7PaJ11TZxpaarlcU8Eyr9g9set7nhmvmqYl/Svz5UaIyydjw==}
@@ -686,8 +694,8 @@ packages:
     resolution: {integrity: sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==}
     engines: {node: '>=0.8'}
 
-  codemaker@1.122.0:
-    resolution: {integrity: sha512-edC/Znm5vpWJKC1Q50qAlxF/5e/1+SqbgtPVfp985TohUkj1liN14T7TEd9qjKFQh6ncLrThoEZHtl0VyjPGmQ==}
+  codemaker@1.123.0:
+    resolution: {integrity: sha512-EjQROD1rB1IbGe8j1VWOP3C9ckcxNmeKLMHRYH+DQH9aH7a5hjew/sZPuIwOAcEAjRGMKADDfa0ov06uvw94tQ==}
     engines: {node: '>= 14.17.0'}
 
   color-convert@1.9.3:
@@ -1196,26 +1204,26 @@ packages:
       canvas:
         optional: true
 
-  jsii-diff@1.122.0:
-    resolution: {integrity: sha512-JrRSnRfLGMdHq4leLOnpVvEW1du/4T7B5B8Hrokq08PaeCPHHmATGznRMbKEeowp/UJNphjAunIDkXaYs5R7Fg==}
+  jsii-diff@1.123.0:
+    resolution: {integrity: sha512-zxdHZ1tmU56X+5dQUy8ArY7+DGhwViIg+Wuk82AnJD67JulHJedVu0ikp7C6oRW0efQfzeuGNclcLRrEJoAG8Q==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
 
-  jsii-docgen@10.11.9:
-    resolution: {integrity: sha512-x+oneYOQVV04E1F6vBGxgZmhiyXQ3WkYsX9XHQy1GvJaA3vfOhfVjM7uVzwpoBvrv6Dhv+hNHrzwxMlfie981w==}
+  jsii-docgen@10.11.10:
+    resolution: {integrity: sha512-bc4RS1W3DArdKbHy4ij/is4yRwlP9Aj6dkBhqYycuFOIXGKWHg4QsoNMq+1g3UfBp4CrDG6Xo3REeiBN8erGiw==}
     hasBin: true
     peerDependencies:
       jsii-rosetta: ^1.85.0 || ~5.0.14 || ~5.1.2 || ~5.2.0 || ~5.3.0 || ~5.4.0 || ~5.5.0 || ~5.6.0 || ~5.7.0 || ~5.8.0 || ~5.9.1
 
-  jsii-pacmak@1.122.0:
-    resolution: {integrity: sha512-P2tXJXxUuVJfWwYbL7Q32jZWXTpEVCmeJQfcUNhYG1/DbLd4WdWow2U9B4Wp2Xx73LSaUYTu4bIP4aJloZjJog==}
+  jsii-pacmak@1.123.0:
+    resolution: {integrity: sha512-h5rjopFnzvu2F6R0HezS5xTv9Qai98Kh/uUCP7WO3zP6KgmL0BxBiF4RRaOYDsXmBs3RX+aVa82uwMRwSCglkw==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
     peerDependencies:
       jsii-rosetta: '>=5.7.0'
 
-  jsii-reflect@1.122.0:
-    resolution: {integrity: sha512-nT0Xa0Wkt2M985wIHvwrDeJl5r1uYZlXXXF8PV5x9JkaAX8kpLHsvWZm3HAVudZ9iV5c5kmITbfiBSgQbg7cXw==}
+  jsii-reflect@1.123.0:
+    resolution: {integrity: sha512-BcaGuADf9ZERYX4+p2wov10RJAxNJMAGuyuoNSrT40kW2WhyIfLQUlINrYnqymfHAsMm3BGdlGOlwHK4dWJ/Uw==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
 
@@ -1386,8 +1394,8 @@ packages:
   obug@2.1.1:
     resolution: {integrity: sha512-uTqF9MuPraAQ+IsnPf366RG4cP9RtUi7MLO1N3KEc+wb0a6yKpeL0lmk2IB1jY5KHPAlTc6T/JRdC/YqxHNwkQ==}
 
-  oo-ascii-tree@1.122.0:
-    resolution: {integrity: sha512-VxBqhNDTS+rdaVjS++dyhoaFEccItSCF+HAWIEHEHhDqkUiw5az/nmFmDmV4YACyPAUhKciyTtrPeKDRtZjgTg==}
+  oo-ascii-tree@1.123.0:
+    resolution: {integrity: sha512-oVm18o18kf+RTK6HwfYy0AsFUwAeyADPuklRmIzCP7+1KECLAG3buT1JAEMWN+fDLgXdhqilUs4r7Xjg6Hk5Og==}
     engines: {node: '>= 14.17.0'}
 
   p-limit@1.3.0:
@@ -1481,8 +1489,8 @@ packages:
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
 
-  projen@0.98.30:
-    resolution: {integrity: sha512-V5XtN30jLClmHWyzkruk1Uo3TjJBtm0/WAHzR9GGSG2PrjOrnj9qF7at7li/Bf/OODO/kyalRWK7SLGpyjSU8w==}
+  projen@0.98.31:
+    resolution: {integrity: sha512-H0L1l+u2obhMkLQfI7vzuQ+QYSLlkxZpshr1bLRfZsiqg6lWyn6NLj2If4B/Oj+mf7Q9PgnmkR24EizAxGjsmg==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -2172,25 +2180,34 @@ snapshots:
       chalk: 4.1.2
       semver: 7.7.3
 
+  '@jsii/check-node@1.123.0':
+    dependencies:
+      chalk: 4.1.2
+      semver: 7.7.3
+
   '@jsii/spec@1.122.0':
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.44(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
+  '@jsii/spec@1.123.0':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.36(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))
-      constructs: 10.4.4
-      projen: 0.98.30(constructs@10.4.4)
+      ajv: 8.17.1
 
-  '@nikovirtala/projen-homebrew@1.0.36(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
+  '@nikovirtala/projen-colima@1.0.45(constructs@10.4.4)(projen@0.98.31(constructs@10.4.4))':
     dependencies:
+      '@nikovirtala/projen-homebrew': 1.0.37(constructs@10.4.4)(projen@0.98.31(constructs@10.4.4))
       constructs: 10.4.4
-      projen: 0.98.30(constructs@10.4.4)
+      projen: 0.98.31(constructs@10.4.4)
 
-  '@nikovirtala/projen-vitest@2.1.34(constructs@10.4.4)(projen@0.98.30(constructs@10.4.4))':
+  '@nikovirtala/projen-homebrew@1.0.37(constructs@10.4.4)(projen@0.98.31(constructs@10.4.4))':
     dependencies:
       constructs: 10.4.4
-      projen: 0.98.30(constructs@10.4.4)
+      projen: 0.98.31(constructs@10.4.4)
+
+  '@nikovirtala/projen-vitest@2.1.34(constructs@10.4.4)(projen@0.98.31(constructs@10.4.4))':
+    dependencies:
+      constructs: 10.4.4
+      projen: 0.98.31(constructs@10.4.4)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -2463,7 +2480,7 @@ snapshots:
 
   clone@2.1.2: {}
 
-  codemaker@1.122.0:
+  codemaker@1.123.0:
     dependencies:
       camelcase: 6.3.0
       decamelize: 5.0.1
@@ -3040,58 +3057,58 @@ snapshots:
       - utf-8-validate
     optional: true
 
-  jsii-diff@1.122.0:
+  jsii-diff@1.123.0:
     dependencies:
-      '@jsii/check-node': 1.122.0
-      '@jsii/spec': 1.122.0
+      '@jsii/check-node': 1.123.0
+      '@jsii/spec': 1.123.0
       fs-extra: 10.1.0
-      jsii-reflect: 1.122.0
+      jsii-reflect: 1.123.0
       log4js: 6.9.1
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
 
-  jsii-docgen@10.11.9(jsii-rosetta@5.9.24):
+  jsii-docgen@10.11.10(jsii-rosetta@5.9.24):
     dependencies:
-      '@jsii/spec': 1.122.0
+      '@jsii/spec': 1.123.0
       case: 1.6.3
       fast-glob: 3.3.3
       fs-extra: 10.1.0
-      jsii-reflect: 1.122.0
+      jsii-reflect: 1.123.0
       jsii-rosetta: 5.9.24
       json-stream-stringify: 3.1.6
       semver: 7.7.3
       yargs: 16.2.0
 
-  jsii-pacmak@1.122.0(jsii-rosetta@5.9.24):
+  jsii-pacmak@1.123.0(jsii-rosetta@5.9.24):
     dependencies:
-      '@jsii/check-node': 1.122.0
-      '@jsii/spec': 1.122.0
+      '@jsii/check-node': 1.123.0
+      '@jsii/spec': 1.123.0
       clone: 2.1.2
-      codemaker: 1.122.0
+      codemaker: 1.123.0
       commonmark: 0.31.2
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
-      jsii-reflect: 1.122.0
+      jsii-reflect: 1.123.0
       jsii-rosetta: 5.9.24
       semver: 7.7.3
       spdx-license-list: 6.10.0
       xmlbuilder: 15.1.1
       yargs: 17.7.2
 
-  jsii-reflect@1.122.0:
+  jsii-reflect@1.123.0:
     dependencies:
-      '@jsii/check-node': 1.122.0
-      '@jsii/spec': 1.122.0
+      '@jsii/check-node': 1.123.0
+      '@jsii/spec': 1.123.0
       chalk: 4.1.2
       fs-extra: 10.1.0
-      oo-ascii-tree: 1.122.0
+      oo-ascii-tree: 1.123.0
       yargs: 17.7.2
 
   jsii-rosetta@5.9.24:
     dependencies:
-      '@jsii/check-node': 1.122.0
-      '@jsii/spec': 1.122.0
+      '@jsii/check-node': 1.123.0
+      '@jsii/spec': 1.123.0
       '@xmldom/xmldom': 0.9.8
       chalk: 4.1.2
       commonmark: 0.31.2
@@ -3288,7 +3305,7 @@ snapshots:
 
   obug@2.1.1: {}
 
-  oo-ascii-tree@1.122.0: {}
+  oo-ascii-tree@1.123.0: {}
 
   p-limit@1.3.0:
     dependencies:
@@ -3369,7 +3386,7 @@ snapshots:
 
   process-nextick-args@2.0.1: {}
 
-  projen@0.98.30(constructs@10.4.4):
+  projen@0.98.31(constructs@10.4.4):
     dependencies:
       constructs: 10.4.4
 
