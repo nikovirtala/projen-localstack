@@ -43,9 +43,9 @@
     "commit-and-tag-version": "^12",
     "constructs": "^10.4.4",
     "jsii": "~5.9.3",
-    "jsii-diff": "^1.124.0",
+    "jsii-diff": "^1.125.0",
     "jsii-docgen": "^10.5.0",
-    "jsii-pacmak": "^1.124.0",
+    "jsii-pacmak": "^1.125.0",
     "jsii-rosetta": "~5.9.3",
     "projen": "^0.98.32",
     "ts-node": "^10.9.2",
@@ -57,7 +57,7 @@
     "projen": "^0.98.32"
   },
   "dependencies": {
-    "@nikovirtala/projen-colima": "^1.0.50",
+    "@nikovirtala/projen-colima": "^1.0.51",
     "@nikovirtala/projen-homebrew": "^1.0.41",
     "projen": "^0.98.32"
   },
