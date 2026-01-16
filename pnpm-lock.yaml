@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.60
-        version: 1.0.60(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))
+        specifier: ^1.0.61
+        version: 1.0.61(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.48
-        version: 1.0.48(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))
+        specifier: ^1.0.49
+        version: 1.0.49(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))
       projen:
         specifier: ^0.98.34
         version: 0.98.34(constructs@10.4.4)
@@ -26,10 +26,10 @@ importers:
         version: 2.1.34(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))
       '@types/node':
         specifier: ^22
-        version: 22.19.6
+        version: 22.19.7
       '@vitest/coverage-v8':
         specifier: ^4
-        version: 4.0.17(vitest@4.0.17(@types/node@22.19.6)(jsdom@25.0.1)(yaml@2.8.1))
+        version: 4.0.17(vitest@4.0.17(@types/node@22.19.7)(jsdom@25.0.1)(yaml@2.8.1))
       commit-and-tag-version:
         specifier: ^12
         version: 12.6.1
@@ -53,13 +53,13 @@ importers:
         version: 5.9.26
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.19.6)(typescript@5.9.3)
+        version: 10.9.2(@types/node@22.19.7)(typescript@5.9.3)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
       vitest:
         specifier: ^4
-        version: 4.0.17(@types/node@22.19.6)(jsdom@25.0.1)(yaml@2.8.1)
+        version: 4.0.17(@types/node@22.19.7)(jsdom@25.0.1)(yaml@2.8.1)
 
 packages:
 
@@ -365,15 +365,15 @@ packages:
     resolution: {integrity: sha512-FneFGrzBMAUjLM1Z4LY3VuWhUrBWUgfrPYLsjnC11HwcMgE1LvVi26QIuTKvV0KWCStIJu4N2TkOEc82b0hbUQ==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.60':
-    resolution: {integrity: sha512-2IPRNqVn3LTpcJvV3duZ6Z5GD5IR6i5Yg1XfdF0xXSUN1EP2QtMKFSzLHWX4KewmzdgBFI3b1uQYuV5dE58SsQ==}
+  '@nikovirtala/projen-colima@1.0.61':
+    resolution: {integrity: sha512-D8xtqF383eUhguISNBG9g6k93gFOaQMLtriPLHa52nWyCnDt54/RFvxKC/qo4CTnpldOjWs+9M/yxC2fAnsdZg==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.4
       projen: ^0.98.34
 
-  '@nikovirtala/projen-homebrew@1.0.48':
-    resolution: {integrity: sha512-tt5eG7e6l5nl/YgbUqCrljK6rmUeavJTbpL2NbmPA5XDjgsy+KSARQRZRWBjP4JVb4nYti0CRWrHRHgQmjkfyA==}
+  '@nikovirtala/projen-homebrew@1.0.49':
+    resolution: {integrity: sha512-miwW2a/PU3lWoBn/D5YHtLHdOun5o8FNzO26JXJ2qeCpPVe1mAdUMbphGv/jsI5mUTnB1MXEchOe+J/f9FNEyQ==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.4
@@ -535,8 +535,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@22.19.6':
-    resolution: {integrity: sha512-qm+G8HuG6hOHQigsi7VGuLjUVu6TtBo/F05zvX04Mw2uCg9Dv0Qxy3Qw7j41SidlTcl5D/5yg0SEZqOB+EqZnQ==}
+  '@types/node@22.19.7':
+    resolution: {integrity: sha512-MciR4AKGHWl7xwxkBa6xUGxQJ4VBOmPTF7sL+iGzuahOFaO0jHCsuEfS80pan1ef4gWId1oWOweIhrDEYLuaOw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2189,13 +2189,13 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.60(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))':
+  '@nikovirtala/projen-colima@1.0.61(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.48(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))
+      '@nikovirtala/projen-homebrew': 1.0.49(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))
       constructs: 10.4.4
       projen: 0.98.34(constructs@10.4.4)
 
-  '@nikovirtala/projen-homebrew@1.0.48(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))':
+  '@nikovirtala/projen-homebrew@1.0.49(constructs@10.4.4)(projen@0.98.34(constructs@10.4.4))':
     dependencies:
       constructs: 10.4.4
       projen: 0.98.34(constructs@10.4.4)
@@ -2304,13 +2304,13 @@ snapshots:
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@22.19.6':
+  '@types/node@22.19.7':
     dependencies:
       undici-types: 6.21.0
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@vitest/coverage-v8@4.0.17(vitest@4.0.17(@types/node@22.19.6)(jsdom@25.0.1)(yaml@2.8.1))':
+  '@vitest/coverage-v8@4.0.17(vitest@4.0.17(@types/node@22.19.7)(jsdom@25.0.1)(yaml@2.8.1))':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@vitest/utils': 4.0.17
@@ -2322,7 +2322,7 @@ snapshots:
       obug: 2.1.1
       std-env: 3.10.0
       tinyrainbow: 3.0.3
-      vitest: 4.0.17(@types/node@22.19.6)(jsdom@25.0.1)(yaml@2.8.1)
+      vitest: 4.0.17(@types/node@22.19.7)(jsdom@25.0.1)(yaml@2.8.1)
 
   '@vitest/expect@4.0.17':
     dependencies:
@@ -2333,13 +2333,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.17(vite@7.2.2(@types/node@22.19.6)(yaml@2.8.1))':
+  '@vitest/mocker@4.0.17(vite@7.2.2(@types/node@22.19.7)(yaml@2.8.1))':
     dependencies:
       '@vitest/spy': 4.0.17
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.2.2(@types/node@22.19.6)(yaml@2.8.1)
+      vite: 7.2.2(@types/node@22.19.7)(yaml@2.8.1)
 
   '@vitest/pretty-format@4.0.17':
     dependencies:
@@ -3638,14 +3638,14 @@ snapshots:
 
   trim-newlines@3.0.1: {}
 
-  ts-node@10.9.2(@types/node@22.19.6)(typescript@5.9.3):
+  ts-node@10.9.2(@types/node@22.19.7)(typescript@5.9.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.19.6
+      '@types/node': 22.19.7
       acorn: 8.15.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -3684,7 +3684,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite@7.2.2(@types/node@22.19.6)(yaml@2.8.1):
+  vite@7.2.2(@types/node@22.19.7)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -3693,14 +3693,14 @@ snapshots:
       rollup: 4.53.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 22.19.6
+      '@types/node': 22.19.7
       fsevents: 2.3.3
       yaml: 2.8.1
 
-  vitest@4.0.17(@types/node@22.19.6)(jsdom@25.0.1)(yaml@2.8.1):
+  vitest@4.0.17(@types/node@22.19.7)(jsdom@25.0.1)(yaml@2.8.1):
     dependencies:
       '@vitest/expect': 4.0.17
-      '@vitest/mocker': 4.0.17(vite@7.2.2(@types/node@22.19.6)(yaml@2.8.1))
+      '@vitest/mocker': 4.0.17(vite@7.2.2(@types/node@22.19.7)(yaml@2.8.1))
       '@vitest/pretty-format': 4.0.17
       '@vitest/runner': 4.0.17
       '@vitest/snapshot': 4.0.17
@@ -3717,10 +3717,10 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.2.2(@types/node@22.19.6)(yaml@2.8.1)
+      vite: 7.2.2(@types/node@22.19.7)(yaml@2.8.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.19.6
+      '@types/node': 22.19.7
       jsdom: 25.0.1
     transitivePeerDependencies:
       - jiti
