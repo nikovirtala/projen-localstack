@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.63
-        version: 1.0.63(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
+        specifier: ^1.0.64
+        version: 1.0.64(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.51
-        version: 1.0.51(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
+        specifier: ^1.0.52
+        version: 1.0.52(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
       projen:
         specifier: ^0.98.34
         version: 0.98.34(constructs@10.4.5)
@@ -357,15 +357,15 @@ packages:
     resolution: {integrity: sha512-FneFGrzBMAUjLM1Z4LY3VuWhUrBWUgfrPYLsjnC11HwcMgE1LvVi26QIuTKvV0KWCStIJu4N2TkOEc82b0hbUQ==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.63':
-    resolution: {integrity: sha512-wrwGl9T1YNiiwTI2Xj+gf0kHoARyhw4PeDOMz5PU6e6AEfGf5EhNLAH9atzR++OEzabg+agWT9Rc2Ge/MHNIQA==}
+  '@nikovirtala/projen-colima@1.0.64':
+    resolution: {integrity: sha512-ChnbwY2BYDvXVy39IulIxZJlI3fSUKDleIjab1sjXKca0OKJIE7IbwkUde1N2OK5wQWyhXwMWTr0TD8xdlMI5A==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.5
       projen: ^0.98.34
 
-  '@nikovirtala/projen-homebrew@1.0.51':
-    resolution: {integrity: sha512-jRBLU9pFYhSEXpgwaCc/mYcz75y3wQgX3g00QOqr/nLy3X7xSD3LSaz6fyjhyR87EA0uqa+lxvBlsN4xCDJYBw==}
+  '@nikovirtala/projen-homebrew@1.0.52':
+    resolution: {integrity: sha512-Y9qewf7VTvWxpaG5B4LloqnTl/r8Ldhb3sEVTISEJHqXSeo8V4VKrzr4RxInu8qdRbcmMfm6J0d/0JZ6jNl8tA==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.5
@@ -2176,13 +2176,13 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.63(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))':
+  '@nikovirtala/projen-colima@1.0.64(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.51(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
+      '@nikovirtala/projen-homebrew': 1.0.52(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
       constructs: 10.4.5
       projen: 0.98.34(constructs@10.4.5)
 
-  '@nikovirtala/projen-homebrew@1.0.51(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))':
+  '@nikovirtala/projen-homebrew@1.0.52(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))':
     dependencies:
       constructs: 10.4.5
       projen: 0.98.34(constructs@10.4.5)
