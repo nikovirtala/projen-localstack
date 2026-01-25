@@ -57,7 +57,7 @@
     "projen": "^0.98.34"
   },
   "dependencies": {
-    "@nikovirtala/projen-colima": "^1.0.67",
+    "@nikovirtala/projen-colima": "^1.0.68",
     "@nikovirtala/projen-homebrew": "^1.0.54",
     "projen": "^0.98.34"
   },
