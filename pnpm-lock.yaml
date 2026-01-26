@@ -38,7 +38,7 @@ importers:
         version: 10.4.5
       jsii:
         specifier: ~5.9.3
-        version: 5.9.23
+        version: 5.9.24
       jsii-diff:
         specifier: ^1.125.0
         version: 1.125.0
@@ -1220,8 +1220,8 @@ packages:
     engines: {node: '>= 18.12.0'}
     hasBin: true
 
-  jsii@5.9.23:
-    resolution: {integrity: sha512-bIPRjOVyBRFl3cmx0kcnTqt3abMazlQvpq67Oix9Ku0jpICaXQv0OJoL/qaUkSl8QXgalUzNOUuxMBjZi680Yw==}
+  jsii@5.9.24:
+    resolution: {integrity: sha512-eowVs75a3ujh1N56Gh3dwAVu750SFr5oj+2FVMTnGnwdYd1+OSOovNXaCuT8FXhKm0JjyPUKUF4qgQLmeDp/hQ==}
     engines: {node: '>= 20.16.0'}
     hasBin: true
 
@@ -3085,7 +3085,7 @@ snapshots:
       chalk: 4.1.2
       commonmark: 0.31.2
       fast-glob: 3.3.3
-      jsii: 5.9.23
+      jsii: 5.9.24
       semver: 7.7.3
       semver-intersect: 1.5.0
       stream-json: 1.9.1
@@ -3095,7 +3095,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsii@5.9.23:
+  jsii@5.9.24:
     dependencies:
       '@jsii/check-node': 1.125.0
       '@jsii/spec': 1.125.0
