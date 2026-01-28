@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.69
-        version: 1.0.69(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
+        specifier: ^1.0.70
+        version: 1.0.70(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
       '@nikovirtala/projen-homebrew':
         specifier: ^1.0.55
         version: 1.0.55(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
@@ -369,8 +369,8 @@ packages:
     resolution: {integrity: sha512-TWCMhogxq5mR1BJaksRtB8ciUQ9vMYSHoQT2t5pKHUtNAJnyFHzWNO7EHr8eQAj74k8P5XeGkOWsfpkQxHiHMA==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.69':
-    resolution: {integrity: sha512-eJwkjDqKuDzEMwU/sRrFbwenm3kcmB5p+qxG4tSFPdlLEnIOyFhHLxzouPqa49iECLKoi8cSAjl5TwfEy2NGmw==}
+  '@nikovirtala/projen-colima@1.0.70':
+    resolution: {integrity: sha512-ZSrM2La+DFdGkeVR44jR2YuCijtf6Y1uR2y2D9FpRA6CpdQYWgbUBBGbIGpsLyuLsFMs/3nLDTDkHSNFhDsnHQ==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.5
@@ -2204,7 +2204,7 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-colima@1.0.69(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))':
+  '@nikovirtala/projen-colima@1.0.70(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))':
     dependencies:
       '@nikovirtala/projen-homebrew': 1.0.55(constructs@10.4.5)(projen@0.98.34(constructs@10.4.5))
       constructs: 10.4.5
