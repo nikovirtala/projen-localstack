@@ -47,19 +47,19 @@
     "jsii-docgen": "^10.5.0",
     "jsii-pacmak": "^1.126.0",
     "jsii-rosetta": "~5.9.3",
-    "projen": "^0.99.13",
+    "projen": "^0.99.15",
     "ts-node": "^10.9.2",
     "typescript": "5.9.3",
     "vitest": "^4"
   },
   "peerDependencies": {
     "constructs": "^10.5.1",
-    "projen": "^0.99.13"
+    "projen": "^0.99.15"
   },
   "dependencies": {
-    "@nikovirtala/projen-colima": "^1.0.88",
-    "@nikovirtala/projen-homebrew": "^1.0.70",
-    "projen": "^0.99.13"
+    "@nikovirtala/projen-colima": "^1.0.89",
+    "@nikovirtala/projen-homebrew": "^1.0.71",
+    "projen": "^0.99.15"
   },
   "pnpm": {},
   "engines": {
