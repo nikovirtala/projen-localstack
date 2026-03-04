@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nikovirtala/projen-colima':
-        specifier: ^1.0.99
-        version: 1.0.99(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))
+        specifier: ^1.0.100
+        version: 1.0.100(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))
       '@nikovirtala/projen-homebrew':
-        specifier: ^1.0.81
-        version: 1.0.81(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))
+        specifier: ^1.0.82
+        version: 1.0.82(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))
       projen:
         specifier: ^0.99.17
         version: 0.99.17(constructs@10.5.1)
@@ -38,7 +38,7 @@ importers:
         version: 10.5.1
       jsii:
         specifier: ~5.9.3
-        version: 5.9.30
+        version: 5.9.31
       jsii-diff:
         specifier: ^1.127.0
         version: 1.127.0
@@ -361,15 +361,15 @@ packages:
     resolution: {integrity: sha512-LJiQLjlyQuMx1KyoKDdU9SlxNe/3xnllPSTlb6alPL84aYAcrGQX82XX7v554AudesIZHp5p5u0bupTK+v3QWA==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-colima@1.0.99':
-    resolution: {integrity: sha512-tzXc7EdU4AeZKubCzw4vaSiYYMC7hWRzr13U5Wga4PfxhJVToY1Q+d9E7Sl7ehMUvdQOIDEFaeguKVFCFHsq/Q==}
+  '@nikovirtala/projen-colima@1.0.100':
+    resolution: {integrity: sha512-3q3lhv5tQob8uNJR2u4D27yEAf6Au65X26zx85d613MXoWIo1Ih4Zqj8XtVm2dtGCiuqpE7uN1UrHMZUGgnK8w==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.5.1
       projen: ^0.99.17
 
-  '@nikovirtala/projen-homebrew@1.0.81':
-    resolution: {integrity: sha512-SsT6IV/4jplnw1eaBvTWnzzqsVhuzFeb7nVEsRcIn81ARCzQCG/xQs2Btoev6igvxuE9fBgEe5lzSV8QpQRU+Q==}
+  '@nikovirtala/projen-homebrew@1.0.82':
+    resolution: {integrity: sha512-x4HpmQMZpZXuYWK85FEmF82XBgsztGeOy9B0xM9ft/Gl73Vde8D2yEfVawmoVQ605D+EQP/rpVZe8klo1foqQQ==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.5.1
@@ -1231,8 +1231,8 @@ packages:
     engines: {node: '>= 20.16.0'}
     hasBin: true
 
-  jsii@5.9.30:
-    resolution: {integrity: sha512-shC3xM1MiwhXjtm3n2tZIEi3ZqN5XnI2kOoksNnn41LsmUdIEkpJq7TfgCXekYCNkn2SFv9EREpr3JEPYDfzIg==}
+  jsii@5.9.31:
+    resolution: {integrity: sha512-DJKqIOJTsRnAXjLlHmMfOCdT2qeRCwHTvWCvd3sdgAc0DZA3UIFJVEa9FlOZEds9U0R0y/AF7bD5TXQgwg/jIA==}
     engines: {node: '>= 20.16.0'}
     hasBin: true
 
@@ -2174,13 +2174,13 @@ snapshots:
 
   '@jsii/spec@1.127.0': {}
 
-  '@nikovirtala/projen-colima@1.0.99(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))':
+  '@nikovirtala/projen-colima@1.0.100(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))':
     dependencies:
-      '@nikovirtala/projen-homebrew': 1.0.81(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))
+      '@nikovirtala/projen-homebrew': 1.0.82(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))
       constructs: 10.5.1
       projen: 0.99.17(constructs@10.5.1)
 
-  '@nikovirtala/projen-homebrew@1.0.81(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))':
+  '@nikovirtala/projen-homebrew@1.0.82(constructs@10.5.1)(projen@0.99.17(constructs@10.5.1))':
     dependencies:
       constructs: 10.5.1
       projen: 0.99.17(constructs@10.5.1)
@@ -3074,7 +3074,7 @@ snapshots:
       chalk: 4.1.2
       commonmark: 0.31.2
       fast-glob: 3.3.3
-      jsii: 5.9.30
+      jsii: 5.9.31
       semver: 7.7.4
       semver-intersect: 1.5.0
       stream-json: 1.9.1
@@ -3084,7 +3084,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsii@5.9.30:
+  jsii@5.9.31:
     dependencies:
       '@jsii/check-node': 1.127.0
       '@jsii/spec': 1.127.0
