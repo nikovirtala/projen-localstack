@@ -29,7 +29,7 @@ importers:
         version: 22.19.15
       '@vitest/coverage-v8':
         specifier: ^4
-        version: 4.1.2(vitest@4.1.2(@types/node@22.19.15)(jsdom@25.0.1)(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1)))
+        version: 4.1.2(vitest@4.1.2(@types/node@22.19.15)(jsdom@25.0.1(supports-color@7.2.0))(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1)))
       commit-and-tag-version:
         specifier: ^12
         version: 12.7.1
@@ -38,19 +38,19 @@ importers:
         version: 10.6.0
       jsii:
         specifier: ~5.9.3
-        version: 5.9.36
+        version: 5.9.36(supports-color@7.2.0)
       jsii-diff:
         specifier: ^1.127.0
-        version: 1.127.0
+        version: 1.127.0(supports-color@7.2.0)
       jsii-docgen:
         specifier: ^10.5.0
-        version: 10.11.15(jsii-rosetta@5.9.38)
+        version: 10.11.15(jsii-rosetta@5.9.38(supports-color@7.2.0))
       jsii-pacmak:
         specifier: ^1.127.0
-        version: 1.127.0(jsii-rosetta@5.9.38)
+        version: 1.127.0(jsii-rosetta@5.9.38(supports-color@7.2.0))
       jsii-rosetta:
         specifier: ~5.9.3
-        version: 5.9.38
+        version: 5.9.38(supports-color@7.2.0)
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.19.15)(typescript@5.9.3)
@@ -59,7 +59,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: ^4
-        version: 4.1.2(@types/node@22.19.15)(jsdom@25.0.1)(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1))
+        version: 4.1.2(@types/node@22.19.15)(jsdom@25.0.1(supports-color@7.2.0))(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1))
 
 packages:
 
@@ -1639,8 +1639,8 @@ packages:
     resolution: {integrity: sha512-s8cs2bcsQCzo/P2T/uoU6Js4dS/jnX8+4xunziNoq9qmSpZNCrRIAIvp4avsz0ST18HycV4z/7myJ7jsHWB2XQ==}
     hasBin: true
 
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
   source-map@0.6.1:
@@ -2333,7 +2333,7 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@vitest/coverage-v8@4.1.2(vitest@4.1.2(@types/node@22.19.15)(jsdom@25.0.1)(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1)))':
+  '@vitest/coverage-v8@4.1.2(vitest@4.1.2(@types/node@22.19.15)(jsdom@25.0.1(supports-color@7.2.0))(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1)))':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@vitest/utils': 4.1.2
@@ -2345,7 +2345,7 @@ snapshots:
       obug: 2.1.1
       std-env: 4.0.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.2(@types/node@22.19.15)(jsdom@25.0.1)(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1))
+      vitest: 4.1.2(@types/node@22.19.15)(jsdom@25.0.1(supports-color@7.2.0))(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1))
 
   '@vitest/expect@4.1.2':
     dependencies:
@@ -2666,9 +2666,11 @@ snapshots:
 
   dateformat@3.0.3: {}
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
   decamelize-keys@1.1.1:
     dependencies:
@@ -2964,18 +2966,18 @@ snapshots:
 
   html-escaper@2.0.2: {}
 
-  http-proxy-agent@7.0.2:
+  http-proxy-agent@7.0.2(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.4
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  https-proxy-agent@7.0.6:
+  https-proxy-agent@7.0.6(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.4
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -3037,15 +3039,15 @@ snapshots:
 
   js-tokens@4.0.0: {}
 
-  jsdom@25.0.1:
+  jsdom@25.0.1(supports-color@7.2.0):
     dependencies:
       cssstyle: 4.6.0
       data-urls: 5.0.0
       decimal.js: 10.6.0
       form-data: 4.0.5
       html-encoding-sniffer: 4.0.0
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
+      http-proxy-agent: 7.0.2(supports-color@7.2.0)
+      https-proxy-agent: 7.0.6(supports-color@7.2.0)
       is-potential-custom-element-name: 1.0.1
       nwsapi: 2.2.23
       parse5: 7.3.0
@@ -3066,30 +3068,30 @@ snapshots:
       - utf-8-validate
     optional: true
 
-  jsii-diff@1.127.0:
+  jsii-diff@1.127.0(supports-color@7.2.0):
     dependencies:
       '@jsii/check-node': 1.127.0
       '@jsii/spec': 1.127.0
       fs-extra: 10.1.0
       jsii-reflect: 1.127.0
-      log4js: 6.9.1
+      log4js: 6.9.1(supports-color@7.2.0)
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
 
-  jsii-docgen@10.11.15(jsii-rosetta@5.9.38):
+  jsii-docgen@10.11.15(jsii-rosetta@5.9.38(supports-color@7.2.0)):
     dependencies:
       '@jsii/spec': 1.127.0
       case: 1.6.3
       fast-glob: 3.3.3
       fs-extra: 10.1.0
       jsii-reflect: 1.127.0
-      jsii-rosetta: 5.9.38
+      jsii-rosetta: 5.9.38(supports-color@7.2.0)
       json-stream-stringify: 3.1.6
       semver: 7.7.4
       yargs: 16.2.0
 
-  jsii-pacmak@1.127.0(jsii-rosetta@5.9.38):
+  jsii-pacmak@1.127.0(jsii-rosetta@5.9.38(supports-color@7.2.0)):
     dependencies:
       '@jsii/check-node': 1.127.0
       '@jsii/spec': 1.127.0
@@ -3099,7 +3101,7 @@ snapshots:
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
       jsii-reflect: 1.127.0
-      jsii-rosetta: 5.9.38
+      jsii-rosetta: 5.9.38(supports-color@7.2.0)
       semver: 7.7.4
       spdx-license-list: 6.11.0
       xmlbuilder: 15.1.1
@@ -3114,7 +3116,7 @@ snapshots:
       oo-ascii-tree: 1.127.0
       yargs: 17.7.2
 
-  jsii-rosetta@5.9.38:
+  jsii-rosetta@5.9.38(supports-color@7.2.0):
     dependencies:
       '@jsii/check-node': 1.127.0
       '@jsii/spec': 1.127.0
@@ -3122,7 +3124,7 @@ snapshots:
       chalk: 4.1.2
       commonmark: 0.31.2
       fast-glob: 3.3.3
-      jsii: 5.9.36
+      jsii: 5.9.36(supports-color@7.2.0)
       semver: 7.7.4
       semver-intersect: 1.5.0
       stream-json: 1.9.1
@@ -3132,14 +3134,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsii@5.9.36:
+  jsii@5.9.36(supports-color@7.2.0):
     dependencies:
       '@jsii/check-node': 1.127.0
       '@jsii/spec': 1.127.0
       case: 1.6.3
       chalk: 4.1.2
       fast-deep-equal: 3.1.3
-      log4js: 6.9.1
+      log4js: 6.9.1(supports-color@7.2.0)
       semver: 7.7.4
       semver-intersect: 1.5.0
       sort-json: 2.0.1
@@ -3200,13 +3202,13 @@ snapshots:
 
   lodash.ismatch@4.4.0: {}
 
-  log4js@6.9.1:
+  log4js@6.9.1(supports-color@7.2.0):
     dependencies:
       date-format: 4.0.14
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       flatted: 3.3.3
       rfdc: 1.4.1
-      streamroller: 3.1.5
+      streamroller: 3.1.5(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3225,7 +3227,7 @@ snapshots:
     dependencies:
       '@babel/parser': 7.29.0
       '@babel/types': 7.29.0
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   make-dir@4.0.0:
     dependencies:
@@ -3391,7 +3393,7 @@ snapshots:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   process-nextick-args@2.0.1: {}
 
@@ -3534,7 +3536,7 @@ snapshots:
       detect-newline: 2.1.0
       minimist: 1.2.8
 
-  source-map-js@1.2.1: {}
+  source-map-js@1.2.2: {}
 
   source-map@0.6.1: {}
 
@@ -3572,10 +3574,10 @@ snapshots:
     dependencies:
       stream-chain: 2.2.5
 
-  streamroller@3.1.5:
+  streamroller@3.1.5(supports-color@7.2.0):
     dependencies:
       date-format: 4.0.14
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       fs-extra: 8.1.0
     transitivePeerDependencies:
       - supports-color
@@ -3722,7 +3724,7 @@ snapshots:
       fsevents: 2.3.3
       yaml: 2.8.1
 
-  vitest@4.1.2(@types/node@22.19.15)(jsdom@25.0.1)(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1)):
+  vitest@4.1.2(@types/node@22.19.15)(jsdom@25.0.1(supports-color@7.2.0))(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1)):
     dependencies:
       '@vitest/expect': 4.1.2
       '@vitest/mocker': 4.1.2(vite@7.2.2(@types/node@22.19.15)(yaml@2.8.1))
@@ -3746,7 +3748,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.19.15
-      jsdom: 25.0.1
+      jsdom: 25.0.1(supports-color@7.2.0)
     transitivePeerDependencies:
       - msw
 
