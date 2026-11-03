@@ -1,5 +1,18 @@
 # projen-localstack
 
+> [!WARNING]
+> **This package is deprecated** and won't get new features or fixes. Use [`@nikovirtala/projen-constructs`](https://github.com/nikovirtala/projen-constructs) instead.
+>
+> Replace the dev dependency `@nikovirtala/projen-localstack` with `@nikovirtala/projen-constructs`, then change the import:
+>
+> ```typescript
+> import { LocalStack } from "@nikovirtala/projen-constructs";
+> ```
+>
+> In the replacement, `imageTag` is applied (it was ignored here).
+>
+> See the [migration guide](https://github.com/nikovirtala/projen-constructs#migrating-from-the-standalone-packages) for the steps and the differences to expect.
+
 LocalStack component for projen projects.
 
 ## Installation
